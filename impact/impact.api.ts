@@ -1,5 +1,5 @@
 import { api } from "encore.dev/api";
-import { db } from "./db";
+import { mainDB } from "../shared/db";
 
 
 interface GetUserImpactParams {
@@ -10,7 +10,7 @@ interface GetUserImpactParams {
 export const getUserImpact = api(
   { method: "GET", path: "/api/impact/user/:userId", expose: true },
   async (params: GetUserImpactParams) => {
-    const result = await db.queryRow<{
+    const result = await mainDB.queryRow<{
       carbon_offset: number;
       trees_equivalent: number;
       landfill_reduction: number;
@@ -28,7 +28,7 @@ export const getUserImpact = api(
 export const getCommunityImpact = api(
   { method: "GET", path: "/api/impact/community", expose: true },
   async () => {
-    const result = await db.queryRow<{
+    const result = await mainDB.queryRow<{
       carbon_offset: number;
       trees_equivalent: number;
       landfill_reduction: number;

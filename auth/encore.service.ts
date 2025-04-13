@@ -1,3 +1,10 @@
 // auth/encore.service.ts
 import { Service } from "encore.dev/service";
-export default new Service("auth");
+import { errorMiddleware, validationMiddleware } from "../shared/middleware";
+
+export default new Service("auth", {
+  middlewares: [
+    errorMiddleware,
+    validationMiddleware
+  ]
+});
