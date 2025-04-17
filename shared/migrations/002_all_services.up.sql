@@ -4,6 +4,28 @@
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 CREATE EXTENSION IF NOT EXISTS "postgis";
 
+-- Core user tables (must be created first as they're referenced by other tables)
+CREATE TABLE IF NOT EXISTS users (
+    id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    first_name VARCHAR(255),
+    last_name VARCHAR(255),
+    zip_code VARCHAR(10),
+    is_verified BOOLEAN NOT NULL DEFAULT false,
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS guest_sessions (
+    id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
+    expires_at TIMESTAMP WITH TIME ZONE NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
+CREATE INDEX IF NOT EXISTS idx_users_zip_code ON users(zip_code);
+
 -- Items migrations first (since they're referenced by other tables)
 CREATE TABLE IF NOT EXISTS categories (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
