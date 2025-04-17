@@ -23,6 +23,7 @@ CREATE TABLE IF NOT EXISTS guest_sessions (
     expires_at TIMESTAMP WITH TIME ZONE NOT NULL
 );
 
+-- Create indexes for users table
 CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
 CREATE INDEX IF NOT EXISTS idx_users_zip_code ON users(zip_code);
 
@@ -46,6 +47,7 @@ CREATE TABLE IF NOT EXISTS items (
     updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
 
+-- Create indexes for items table
 CREATE INDEX IF NOT EXISTS idx_items_category_id ON items(category_id);
 CREATE INDEX IF NOT EXISTS idx_items_name ON items(name);
 
@@ -69,6 +71,7 @@ CREATE TABLE IF NOT EXISTS guest_preferences (
     UNIQUE(session_id)
 );
 
+-- Create indexes for auth tables
 CREATE INDEX IF NOT EXISTS idx_guest_preferences_session_id ON guest_preferences(session_id);
 CREATE INDEX IF NOT EXISTS idx_password_reset_tokens_user_id ON password_reset_tokens(user_id);
 CREATE INDEX IF NOT EXISTS idx_password_reset_tokens_token ON password_reset_tokens(token);
@@ -125,6 +128,7 @@ CREATE TABLE IF NOT EXISTS facility_type_mappings (
     PRIMARY KEY (facility_id, type_id)
 );
 
+-- Create indexes for facilities tables
 CREATE INDEX IF NOT EXISTS idx_facilities_location ON facilities USING GIST (location);
 CREATE INDEX IF NOT EXISTS idx_facilities_zip_code ON facilities(zip_code);
 CREATE INDEX IF NOT EXISTS idx_facility_hours_facility_id ON facility_hours(facility_id);
@@ -164,6 +168,7 @@ CREATE TABLE IF NOT EXISTS donation_receipts (
     UNIQUE(receipt_number)
 );
 
+-- Create indexes for drop-offs tables
 CREATE INDEX IF NOT EXISTS idx_drop_offs_user_id ON drop_offs(user_id);
 CREATE INDEX IF NOT EXISTS idx_drop_offs_guest_session_id ON drop_offs(guest_session_id);
 CREATE INDEX IF NOT EXISTS idx_drop_offs_facility_id ON drop_offs(facility_id);
@@ -219,6 +224,7 @@ CREATE TABLE IF NOT EXISTS social_shares (
     created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
 
+-- Create indexes for impact tables
 CREATE INDEX IF NOT EXISTS idx_impact_metrics_user_id ON impact_metrics(user_id);
 CREATE INDEX IF NOT EXISTS idx_impact_metrics_drop_off_id ON impact_metrics(drop_off_id);
 CREATE INDEX IF NOT EXISTS idx_user_achievements_user_id ON user_achievements(user_id);
@@ -284,8 +290,15 @@ CREATE TABLE IF NOT EXISTS invoices (
     created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
 
+-- Create indexes for premium tables
 CREATE INDEX IF NOT EXISTS idx_subscriptions_user_id ON subscriptions(user_id);
 CREATE INDEX IF NOT EXISTS idx_payment_methods_user_id ON payment_methods(user_id);
 CREATE INDEX IF NOT EXISTS idx_invoices_user_id ON invoices(user_id);
 CREATE INDEX IF NOT EXISTS idx_invoices_subscription_id ON invoices(subscription_id);
 CREATE INDEX IF NOT EXISTS idx_user_premium_features_user_id ON user_premium_features(user_id);
+
+-- Update schema migrations
+INSERT INTO schema_migrations (version, dirty) 
+VALUES (2, false) 
+ON CONFLICT (version) 
+DO UPDATE SET dirty = false;
