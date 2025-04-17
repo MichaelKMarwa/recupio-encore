@@ -1,6 +1,6 @@
 // facilities/facilities.api.ts
 import { api, Query, APIError } from "encore.dev/api";
-import { mainDB } from "../shared/db";
+import { db } from "../shared/db";
 
 export interface Facility {
     id: string;
@@ -92,7 +92,7 @@ export const listFacilities = api(
       }
   
       const facilities: Facility[] = [];
-      for await (const row of mainDB.query<Facility>`${query}`) {
+      for await (const row of db.query<Facility>`${query}`) {
         facilities.push(row);
       }
       
@@ -108,20 +108,20 @@ export const listFacilities = api(
       expose: true 
     },
     async (params: { id: string }): Promise<FacilityWithDetails> => {
-      const facility = await mainDB.queryRow<Facility>`
+      const facility = await db.queryRow<Facility>`
         SELECT * FROM facilities WHERE id = ${params.id}
       `;
       
       if (!facility) throw APIError.notFound("Facility not found");
   
       const [hours, items, reviews] = await Promise.all([
-        mainDB.query<FacilityHour>`
+        db.query<FacilityHour>`
           SELECT * FROM facility_hours WHERE facility_id = ${params.id}
         `,
-        mainDB.query<FacilityItem>`
+        db.query<FacilityItem>`
           SELECT * FROM facility_items WHERE facility_id = ${params.id}
         `,
-        mainDB.query<FacilityReview>`
+        db.query<FacilityReview>`
           SELECT * FROM facility_reviews WHERE facility_id = ${params.id}
         `
       ]);
@@ -178,7 +178,7 @@ export const listFacilities = api(
       `;
   
       const rows: (Facility & { match_count: number })[] = [];
-      for await (const row of mainDB.query<Facility & { match_count: number }>`${query}`) {
+      for await (const row of db.query<Facility & { match_count: number }>`${query}`) {
         rows.push(row);
       }
   
@@ -226,7 +226,7 @@ export const listFacilities = api(
       }
   
       const facilities: Facility[] = [];
-      for await (const row of mainDB.query<Facility>`${query}`) {
+      for await (const row of db.query<Facility>`${query}`) {
         facilities.push(row);
       }
   

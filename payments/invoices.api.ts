@@ -1,6 +1,6 @@
 // payments/invoices.api.ts
 import { api, APIError } from "encore.dev/api";
-import { mainDB } from "../shared/db";
+import { db } from "../shared/db";
 import { v4 as uuidv4 } from "uuid";
 
 interface Invoice {
@@ -24,7 +24,7 @@ export const getInvoices = api(
     limit?: number;
   }) => {    
     const invoices: (Invoice & { plan_id: string })[] = [];
-    for await (const invoice of mainDB.query<Invoice & { plan_id: string }>`
+    for await (const invoice of db.query<Invoice & { plan_id: string }>`
       SELECT i.*, s.plan_id
       FROM invoices i
       JOIN subscriptions s ON i.subscription_id = s.id
@@ -45,7 +45,7 @@ export const getInvoices = api(
 export const getInvoicePDF = api(
   { method: "GET", path: "/api/payments/invoices/:id/pdf", auth: true },
   async (params: { auth: { userId: string }; id: string }) => {
-    const invoice = await mainDB.queryRow<Invoice>`
+    const invoice = await db.queryRow<Invoice>`
       SELECT * FROM invoices
       WHERE id = ${params.id}
       AND user_id = ${params.auth.userId}
@@ -63,7 +63,7 @@ export const getInvoicePDF = api(
     // TODO: Implement PDF generation service
     const pdfUrl = `https://storage.example.com/invoices/${invoice.id}.pdf`;
     
-    await mainDB.exec`
+    await db.exec`
       UPDATE invoices
       SET pdf_url = ${pdfUrl}
       WHERE id = ${invoice.id}
@@ -77,7 +77,7 @@ export const getInvoicePDF = api(
 export const sendInvoiceEmail = api(
   { method: "POST", path: "/api/payments/invoices/:id/send", auth: true },
   async (params: { auth: { userId: string }; id: string }) => {
-    const invoice = await mainDB.queryRow`
+    const invoice = await db.queryRow`
       SELECT i.*, u.email
       FROM invoices i
       JOIN users u ON i.user_id = u.id

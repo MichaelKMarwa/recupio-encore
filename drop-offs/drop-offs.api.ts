@@ -1,6 +1,6 @@
 // drop-offs/drop-offs.api.ts
 import { api, APIError } from "encore.dev/api";
-import { mainDB } from "../shared/db";
+import { db } from "../shared/db";
 import { v4 as uuidv4 } from "uuid";
 import { receiptStorage } from "../storage/objects";
 
@@ -66,13 +66,13 @@ export const createDropOff = api(
 
     const dropOffId = uuidv4();
     
-    await mainDB.exec`
+    await db.exec`
       INSERT INTO drop_offs (id, user_id, facility_id)
       VALUES (${dropOffId}, ${params.auth.userID}, ${params.body.facility_id})
     `;
 
     for (const item of params.body.items) {
-      await mainDB.exec`
+      await db.exec`
         INSERT INTO drop_off_items (
           id, drop_off_id, item_id, quantity, condition, 
           estimated_value, carbon_offset
@@ -103,7 +103,7 @@ export const getUserDropOffs = api(
     }
 
     const dropOffs: DropOff[] = [];
-    for await (const row of mainDB.query<DropOff>`
+    for await (const row of db.query<DropOff>`
       SELECT * FROM drop_offs 
       WHERE user_id = ${ctx.userId}
       ORDER BY drop_off_date DESC
@@ -126,7 +126,7 @@ export const getDropOffDetails = api(
     drop_off: DropOff;
     items: DropOffItem[];
   }> => {
-    const dropOff = await mainDB.queryRow<DropOff>`
+    const dropOff = await db.queryRow<DropOff>`
       SELECT * FROM drop_offs WHERE id = ${ctx.id}
     `;
     
@@ -135,7 +135,7 @@ export const getDropOffDetails = api(
     }
 
     const items: DropOffItem[] = [];
-    for await (const item of mainDB.query<DropOffItem>`
+    for await (const item of db.query<DropOffItem>`
       SELECT * FROM drop_off_items WHERE drop_off_id = ${ctx.id}
     `) {
       items.push(item);
@@ -158,7 +158,7 @@ export const generateTaxReceipt = api(
     auth: true
   },
   async (ctx: GenerateTaxReceiptParams): Promise<{ receipt_url: string }> => {
-    const dropOff = await mainDB.queryRow<DropOff>`
+    const dropOff = await db.queryRow<DropOff>`
       SELECT * FROM drop_offs 
       WHERE id = ${ctx.dropOffId} 
       AND user_id = ${ctx.auth.userID}
@@ -168,7 +168,7 @@ export const generateTaxReceipt = api(
       throw APIError.notFound("Drop-off not found or unauthorized access");
     }
 
-    const totalValue = await mainDB.queryRow<{ total: number }>`
+    const totalValue = await db.queryRow<{ total: number }>`
       SELECT SUM(estimated_value) as total 
       FROM drop_off_items 
       WHERE drop_off_id = ${ctx.dropOffId}
@@ -191,7 +191,7 @@ export const generateTaxReceipt = api(
 
     const publicUrl = receiptStorage.publicUrl(receiptPath);
 
-    await mainDB.exec`
+    await db.exec`
       INSERT INTO tax_receipts (
         id, drop_off_id, user_id, receipt_number, 
         tax_year, total_value, receipt_url
@@ -221,7 +221,7 @@ export const getUserTaxReceipts = api(
     }
 
     const receipts: TaxReceipt[] = [];
-    for await (const row of mainDB.query<TaxReceipt>`
+    for await (const row of db.query<TaxReceipt>`
       SELECT * FROM tax_receipts 
       WHERE user_id = ${ctx.userId}
       ORDER BY receipt_date DESC

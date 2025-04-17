@@ -1,6 +1,6 @@
 // premium/premium.api.ts
 import { api, APIError } from "encore.dev/api";
-import { mainDB } from "../shared/db";
+import { db } from "../shared/db";
 
 interface PremiumFeature {
   id: string;
@@ -15,7 +15,7 @@ export const listPremiumFeatures = api(
   { method: "GET", path: "/api/premium/features", expose: true },
   async () => {
     const features: PremiumFeature[] = [];
-    for await (const feature of mainDB.query<PremiumFeature>`
+    for await (const feature of db.query<PremiumFeature>`
       SELECT * FROM premium_features
       WHERE is_active = true
       ORDER BY name ASC
@@ -32,7 +32,7 @@ export const activateFeature = api(
   { method: "POST", path: "/api/premium/activate", auth: true },
   async (params: { auth: { userId: string }; featureId: string }) => {
     // Verify user is premium
-    const user = await mainDB.queryRow`
+    const user = await db.queryRow`
       SELECT is_premium FROM users
       WHERE id = ${params.auth.userId}
     `;
@@ -42,7 +42,7 @@ export const activateFeature = api(
     }
 
     // Verify feature exists and is active
-    const feature = await mainDB.queryRow`
+    const feature = await db.queryRow`
       SELECT * FROM premium_features
       WHERE id = ${params.featureId}
       AND is_active = true
@@ -53,7 +53,7 @@ export const activateFeature = api(
     }
 
     // Activate feature for user
-    await mainDB.exec`
+    await db.exec`
       INSERT INTO user_premium_features (user_id, feature_id)
       VALUES (${params.auth.userId}, ${params.featureId})
       ON CONFLICT (user_id, feature_id) DO NOTHING
@@ -68,7 +68,7 @@ export const getActiveFeatures = api(
   { method: "GET", path: "/api/premium/features/active", auth: true },
   async (params: { auth: { userId: string } }) => {
     const features: (PremiumFeature & { activated_at: Date })[] = [];
-    for await (const feature of mainDB.query<PremiumFeature & { activated_at: Date }>`
+    for await (const feature of db.query<PremiumFeature & { activated_at: Date }>`
       SELECT pf.*, upf.activated_at
       FROM premium_features pf
       JOIN user_premium_features upf ON pf.id = upf.feature_id
@@ -87,7 +87,7 @@ export const getActiveFeatures = api(
 export const deactivateFeature = api(
   { method: "POST", path: "/api/premium/deactivate", auth: true },
   async (params: { auth: { userId: string }; featureId: string }) => {
-    await mainDB.exec`
+    await db.exec`
       DELETE FROM user_premium_features
       WHERE user_id = ${params.auth.userId}
       AND feature_id = ${params.featureId}

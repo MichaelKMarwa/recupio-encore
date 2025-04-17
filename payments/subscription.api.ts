@@ -1,6 +1,6 @@
 // payments/subscription.api.ts
 import { api, APIError } from "encore.dev/api";
-import { mainDB } from "../shared/db";
+import { db } from "../shared/db";
 import { v4 as uuidv4 } from "uuid";
 
 interface SubscriptionPlan {
@@ -21,7 +21,7 @@ export const subscribe = api(
     paymentMethodId: string;
   }) => {
     // Verify payment method belongs to user
-    const paymentMethod = await mainDB.queryRow`
+    const paymentMethod = await db.queryRow`
       SELECT * FROM payment_methods 
       WHERE id = ${params.paymentMethodId}
       AND user_id = ${params.auth.userId}
@@ -37,7 +37,7 @@ export const subscribe = api(
     periodEnd.setMonth(periodEnd.getMonth() + 1); // 1 month subscription period
 
     // Create subscription
-    await mainDB.exec`
+    await db.exec`
       INSERT INTO subscriptions (
         id, user_id, plan_id, status,
         current_period_start, current_period_end
@@ -48,7 +48,7 @@ export const subscribe = api(
     `;
 
     // Update user to premium
-    await mainDB.exec`
+    await db.exec`
       UPDATE users 
       SET is_premium = true, updated_at = NOW()
       WHERE id = ${params.auth.userId}
@@ -66,7 +66,7 @@ export const subscribe = api(
 export const cancelSubscription = api(
   { method: "PUT", path: "/api/premium/cancel", auth: true },
   async (params: { auth: { userId: string } }) => {
-    const subscription = await mainDB.queryRow`
+    const subscription = await db.queryRow`
       SELECT * FROM subscriptions
       WHERE user_id = ${params.auth.userId}
       AND status = 'active'
@@ -76,7 +76,7 @@ export const cancelSubscription = api(
       throw APIError.notFound("No active subscription found");
     }
 
-    await mainDB.exec`
+    await db.exec`
       UPDATE subscriptions
       SET status = 'canceled',
           cancel_at_period_end = true,
@@ -92,7 +92,7 @@ export const cancelSubscription = api(
 export const getSubscription = api(
   { method: "GET", path: "/api/premium/subscription", auth: true },
   async (params: { auth: { userId: string } }) => {
-    const subscription = await mainDB.queryRow`
+    const subscription = await db.queryRow`
       SELECT s.*, array_agg(upf.feature_id) as active_features
       FROM subscriptions s
       LEFT JOIN user_premium_features upf ON s.user_id = upf.user_id

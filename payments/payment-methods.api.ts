@@ -1,6 +1,6 @@
 // payments/payment-methods.api.ts
 import { api, APIError } from "encore.dev/api";
-import { mainDB } from "../shared/db";
+import { db } from "../shared/db";
 import { v4 as uuidv4 } from "uuid";
 
 interface PaymentMethod {
@@ -17,7 +17,7 @@ export const getPaymentMethods = api(
   { method: "GET", path: "/api/payments/methods", auth: true },
   async (params: { auth: { userId: string } }) => {
     const methods: PaymentMethod[] = [];
-    for await (const method of mainDB.query<PaymentMethod>`
+    for await (const method of db.query<PaymentMethod>`
       SELECT id, type, last_four, expiry_month, expiry_year, is_default
       FROM payment_methods
       WHERE user_id = ${params.auth.userId}
@@ -44,7 +44,7 @@ export const addPaymentMethod = api(
   }) => {
     // If this is marked as default, unset any existing default
     if (params.isDefault) {
-      await mainDB.exec`
+      await db.exec`
         UPDATE payment_methods 
         SET is_default = false, updated_at = NOW()
         WHERE user_id = ${params.auth.userId}
@@ -56,7 +56,7 @@ export const addPaymentMethod = api(
     const providerId = `test_${uuidv4()}`; // Replace with actual provider token validation
 
     const id = uuidv4();
-    await mainDB.exec`
+    await db.exec`
       INSERT INTO payment_methods (
         id, user_id, type, provider_id, last_four,
         expiry_month, expiry_year, is_default
@@ -83,7 +83,7 @@ export const addPaymentMethod = api(
 export const removePaymentMethod = api(
   { method: "DELETE", path: "/api/payments/methods/:id", auth: true },
   async (params: { auth: { userId: string }; id: string }) => {
-    const method = await mainDB.queryRow`
+    const method = await db.queryRow`
       SELECT * FROM payment_methods
       WHERE id = ${params.id}
       AND user_id = ${params.auth.userId}
@@ -94,12 +94,12 @@ export const removePaymentMethod = api(
     }
 
     // Don't allow removal if it's the only payment method and user has active subscription
-    const hasSubscription = await mainDB.queryRow`
+    const hasSubscription = await db.queryRow`
       SELECT 1 FROM subscriptions
       WHERE user_id = ${params.auth.userId}
       AND status = 'active'
     `;
-    const methodCount = await mainDB.queryRow<{ count: number }>`
+    const methodCount = await db.queryRow<{ count: number }>`
       SELECT COUNT(*) as count FROM payment_methods
       WHERE user_id = ${params.auth.userId}
     `;
@@ -110,7 +110,7 @@ export const removePaymentMethod = api(
       );
     }
 
-    await mainDB.exec`
+    await db.exec`
       DELETE FROM payment_methods
       WHERE id = ${params.id}
       AND user_id = ${params.auth.userId}

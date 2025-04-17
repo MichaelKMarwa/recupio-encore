@@ -1,6 +1,6 @@
 // services/items/api.ts
 import { api, APIError } from "encore.dev/api";
-import { mainDB } from "../shared/db";
+import { db } from "../shared/db";
 
 // Existing interfaces
 interface Item {
@@ -57,7 +57,7 @@ export const listItems = api(
   async (): Promise<ItemListResponse> => {
     const items: ItemWithCategory[] = [];
     
-    for await (const row of mainDB.query<RawItemWithCategory>`
+    for await (const row of db.query<RawItemWithCategory>`
       SELECT i.*, 
              c.id as category_id, 
              c.name as category_name, 
@@ -90,7 +90,7 @@ export const listCategories = api(
   { method: "GET", path: "/items/categories", expose: true },
   async (): Promise<CategoryListResponse> => {
     const categories: Category[] = [];
-    for await (const category of mainDB.query<Category>`
+    for await (const category of db.query<Category>`
       SELECT * FROM item_categories
     `) {
       categories.push(category);
@@ -104,10 +104,10 @@ export const getCategory = api(
   { method: "GET", path: "/items/categories/:id", expose: true },
   async (params: { id: string }): Promise<CategoryWithItems> => {
     const [category, itemsResult] = await Promise.all([
-      mainDB.queryRow<Category>`
+      db.queryRow<Category>`
         SELECT * FROM item_categories WHERE id = ${params.id}
       `,
-      mainDB.query<Item>`
+      db.query<Item>`
         SELECT * FROM items WHERE category_id = ${params.id}
       `
     ]);

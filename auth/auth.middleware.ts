@@ -2,7 +2,7 @@
 import { middleware, APIError, MiddlewareRequest } from "encore.dev/api";
 import * as jwt from "jsonwebtoken";
 import { secret } from "encore.dev/config";
-import { mainDB } from "../shared/db";
+import { db } from "../shared/db";
 
 const jwtSecret = secret("JWT_SECRET");
 
@@ -38,7 +38,7 @@ export const guestMiddleware = middleware(
       throw APIError.unauthenticated("Missing guest session header");
     }
 
-    const session = await mainDB.queryRow`
+    const session = await db.queryRow`
       SELECT * FROM guest_sessions 
       WHERE session_id = ${sessionId} 
       AND expires_at > NOW()

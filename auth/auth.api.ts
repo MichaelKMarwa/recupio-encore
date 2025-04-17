@@ -1,6 +1,6 @@
 // auth/auth.api.ts (updated)
 import { api, APIError } from "encore.dev/api";
-import { mainDB } from "../shared/db";
+import { db } from "../shared/db";
 import * as bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { v4 as uuidv4 } from "uuid";
@@ -48,7 +48,7 @@ interface UpgradeParams {
 export const login = api(
   { method: "POST", path: "/auth/login" },
   async (params: LoginParams) => {
-    const user = await mainDB.queryRow<User>`
+    const user = await db.queryRow<User>`
       SELECT * FROM users WHERE email = ${params.email}
     `;
     
@@ -69,7 +69,7 @@ export const login = api(
 export const register = api(
   { method: "POST", path: "/auth/register", auth: false },
   async (params: RegisterParams) => {
-    const existingUser = await mainDB.queryRow<User>`
+    const existingUser = await db.queryRow<User>`
       SELECT id FROM users WHERE email = ${params.email}
     `;
     if (existingUser) throw APIError.alreadyExists("Email already registered");
@@ -78,7 +78,7 @@ export const register = api(
     const passwordHash = await bcrypt.hash(params.password, salt);
 
     const userId = uuidv4();
-    await mainDB.exec`
+    await db.exec`
       INSERT INTO users (id, name, email, password_hash, role)
       VALUES (${userId}, ${params.name}, ${params.email}, ${passwordHash}, 'standard')
     `;
@@ -99,7 +99,7 @@ export const createGuestSession = api(
   { method: "POST", path: "/auth/guest-session", auth: false },
   async (): Promise<GuestSessionResponse> => {
     const sessionId = uuidv4();
-    await mainDB.exec`
+    await db.exec`
       INSERT INTO guest_sessions (id, session_id, expires_at)
       VALUES (${uuidv4()}, ${sessionId}, NOW() + INTERVAL '24 hours')
     `;
@@ -117,14 +117,14 @@ export const logout = api(
 export const upgradeUser = api(
   { method: "PUT", path: "/users/upgrade", auth: true },
   async (params: UpgradeParams) => {
-    await mainDB.exec`
+    await db.exec`
       UPDATE users
       SET role = 'premium', updated_at = NOW()
       WHERE id = ${params.userId}
     `;
 
     const paymentId = uuidv4();
-    await mainDB.exec`
+    await db.exec`
       INSERT INTO payments (id, user_id, amount, currency, payment_method, payment_status, feature_id)
       VALUES (
         ${paymentId},
@@ -137,7 +137,7 @@ export const upgradeUser = api(
       )
     `;
 
-    const updatedUser = await mainDB.queryRow<User>`
+    const updatedUser = await db.queryRow<User>`
       SELECT * FROM users WHERE id = ${params.userId}
     `;
     
@@ -151,7 +151,7 @@ export const upgradeUser = api(
 export const getPreferences = api(
   { method: "GET", path: "/users/preferences", auth: true },
   async (params: { auth: { userId: string } }) => {
-    const prefs = await mainDB.queryRow`
+    const prefs = await db.queryRow`
       SELECT preferences FROM user_preferences WHERE user_id = ${params.auth.userId}
     `;
     return prefs?.preferences || {};
@@ -162,7 +162,7 @@ export const getPreferences = api(
 export const updatePreferences = api(
   { method: "PUT", path: "/users/preferences", auth: true },
   async (params: { auth: { userId: string }, body: { preferences: Record<string, any> } }) => {
-    await mainDB.exec`
+    await db.exec`
       INSERT INTO user_preferences (user_id, preferences)
       VALUES (${params.auth.userId}, ${params.body.preferences})
       ON CONFLICT (user_id) DO UPDATE

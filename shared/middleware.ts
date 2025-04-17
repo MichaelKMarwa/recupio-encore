@@ -3,7 +3,7 @@
 import { middleware, APIError, MiddlewareRequest } from "encore.dev/api";
 type MiddlewareNext = (req: MiddlewareRequest) => Promise<any>;
 import * as jwt from "jsonwebtoken";
-import { mainDB } from "./db";
+import { db } from "./db";
 import { jwtSecret } from "../auth/secrets";
 
 export interface AuthData {
@@ -25,7 +25,7 @@ export const authMiddleware = middleware(
       const payload = jwt.verify(token, jwtSecret()) as AuthData;
       
       // Verify user exists and is active
-      const user = await mainDB.queryRow`
+      const user = await db.queryRow`
         SELECT id, role FROM users 
         WHERE id = ${payload.userId}
       `;
@@ -52,7 +52,7 @@ export const guestMiddleware = middleware(
       throw APIError.unauthenticated("Missing guest session header");
     }
 
-    const session = await mainDB.queryRow`
+    const session = await db.queryRow`
       SELECT session_id FROM guest_sessions 
       WHERE session_id = ${sessionId} 
       AND expires_at > NOW()
@@ -75,7 +75,7 @@ export const premiumMiddleware = middleware(
       throw APIError.unauthenticated("Authentication required for premium features");
     }
 
-    const user = await mainDB.queryRow`
+    const user = await db.queryRow`
       SELECT is_premium FROM users WHERE id = ${req.auth.userId}
     `;
 
