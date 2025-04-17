@@ -4,6 +4,12 @@
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 CREATE EXTENSION IF NOT EXISTS "postgis";
 
+-- Create schema_migrations table if it doesn't exist
+CREATE TABLE IF NOT EXISTS schema_migrations (
+    version BIGINT PRIMARY KEY,
+    dirty BOOLEAN NOT NULL
+);
+
 -- Core user tables (must be created first as they're referenced by other tables)
 CREATE TABLE IF NOT EXISTS users (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -17,15 +23,12 @@ CREATE TABLE IF NOT EXISTS users (
     updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
 
+-- Create guest_sessions table
 CREATE TABLE IF NOT EXISTS guest_sessions (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
     expires_at TIMESTAMP WITH TIME ZONE NOT NULL
 );
-
--- Create indexes for users table
-CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
-CREATE INDEX IF NOT EXISTS idx_users_zip_code ON users(zip_code);
 
 -- Items migrations first (since they're referenced by other tables)
 CREATE TABLE IF NOT EXISTS categories (
@@ -37,6 +40,7 @@ CREATE TABLE IF NOT EXISTS categories (
     updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
 
+-- Create items table
 CREATE TABLE IF NOT EXISTS items (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     name VARCHAR(255) NOT NULL,
@@ -46,10 +50,6 @@ CREATE TABLE IF NOT EXISTS items (
     created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
-
--- Create indexes for items table
-CREATE INDEX IF NOT EXISTS idx_items_category_id ON items(category_id);
-CREATE INDEX IF NOT EXISTS idx_items_name ON items(name);
 
 -- Auth migrations
 CREATE TABLE IF NOT EXISTS password_reset_tokens (
@@ -61,6 +61,7 @@ CREATE TABLE IF NOT EXISTS password_reset_tokens (
     used_at TIMESTAMP WITH TIME ZONE DEFAULT NULL
 );
 
+-- Create guest_preferences table
 CREATE TABLE IF NOT EXISTS guest_preferences (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     session_id VARCHAR(255) NOT NULL REFERENCES guest_sessions(id) ON DELETE CASCADE,
@@ -71,11 +72,6 @@ CREATE TABLE IF NOT EXISTS guest_preferences (
     UNIQUE(session_id)
 );
 
--- Create indexes for auth tables
-CREATE INDEX IF NOT EXISTS idx_guest_preferences_session_id ON guest_preferences(session_id);
-CREATE INDEX IF NOT EXISTS idx_password_reset_tokens_user_id ON password_reset_tokens(user_id);
-CREATE INDEX IF NOT EXISTS idx_password_reset_tokens_token ON password_reset_tokens(token);
-
 -- Facilities migrations
 CREATE TABLE IF NOT EXISTS facility_types (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -83,6 +79,7 @@ CREATE TABLE IF NOT EXISTS facility_types (
     created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
 
+-- Create facilities table
 CREATE TABLE IF NOT EXISTS facilities (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     name VARCHAR(255) NOT NULL,
@@ -101,6 +98,7 @@ CREATE TABLE IF NOT EXISTS facilities (
     updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
 
+-- Create facility_hours table
 CREATE TABLE IF NOT EXISTS facility_hours (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     facility_id VARCHAR(255) NOT NULL REFERENCES facilities(id) ON DELETE CASCADE,
@@ -113,6 +111,7 @@ CREATE TABLE IF NOT EXISTS facility_hours (
     UNIQUE(facility_id, day_of_week)
 );
 
+-- Create facility_items table
 CREATE TABLE IF NOT EXISTS facility_items (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     facility_id VARCHAR(255) NOT NULL REFERENCES facilities(id) ON DELETE CASCADE,
@@ -121,19 +120,13 @@ CREATE TABLE IF NOT EXISTS facility_items (
     UNIQUE(facility_id, item_id)
 );
 
+-- Create facility_type_mappings table
 CREATE TABLE IF NOT EXISTS facility_type_mappings (
     facility_id VARCHAR(255) NOT NULL REFERENCES facilities(id) ON DELETE CASCADE,
     type_id VARCHAR(255) NOT NULL REFERENCES facility_types(id) ON DELETE CASCADE,
     created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
     PRIMARY KEY (facility_id, type_id)
 );
-
--- Create indexes for facilities tables
-CREATE INDEX IF NOT EXISTS idx_facilities_location ON facilities USING GIST (location);
-CREATE INDEX IF NOT EXISTS idx_facilities_zip_code ON facilities(zip_code);
-CREATE INDEX IF NOT EXISTS idx_facility_hours_facility_id ON facility_hours(facility_id);
-CREATE INDEX IF NOT EXISTS idx_facility_items_facility_id ON facility_items(facility_id);
-CREATE INDEX IF NOT EXISTS idx_facility_items_item_id ON facility_items(item_id);
 
 -- Drop-offs migrations
 CREATE TABLE IF NOT EXISTS drop_offs (
@@ -148,6 +141,7 @@ CREATE TABLE IF NOT EXISTS drop_offs (
     CHECK (user_id IS NOT NULL OR guest_session_id IS NOT NULL)
 );
 
+-- Create drop_off_items table
 CREATE TABLE IF NOT EXISTS drop_off_items (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     drop_off_id VARCHAR(255) NOT NULL REFERENCES drop_offs(id) ON DELETE CASCADE,
@@ -157,6 +151,7 @@ CREATE TABLE IF NOT EXISTS drop_off_items (
     UNIQUE(drop_off_id, item_id)
 );
 
+-- Create donation_receipts table
 CREATE TABLE IF NOT EXISTS donation_receipts (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     drop_off_id VARCHAR(255) NOT NULL REFERENCES drop_offs(id) ON DELETE CASCADE,
@@ -167,14 +162,6 @@ CREATE TABLE IF NOT EXISTS donation_receipts (
     expires_at TIMESTAMP WITH TIME ZONE NOT NULL,
     UNIQUE(receipt_number)
 );
-
--- Create indexes for drop-offs tables
-CREATE INDEX IF NOT EXISTS idx_drop_offs_user_id ON drop_offs(user_id);
-CREATE INDEX IF NOT EXISTS idx_drop_offs_guest_session_id ON drop_offs(guest_session_id);
-CREATE INDEX IF NOT EXISTS idx_drop_offs_facility_id ON drop_offs(facility_id);
-CREATE INDEX IF NOT EXISTS idx_drop_offs_drop_off_date ON drop_offs(drop_off_date);
-CREATE INDEX IF NOT EXISTS idx_drop_off_items_drop_off_id ON drop_off_items(drop_off_id);
-CREATE INDEX IF NOT EXISTS idx_donation_receipts_drop_off_id ON donation_receipts(drop_off_id);
 
 -- Impact migrations
 CREATE TABLE IF NOT EXISTS impact_metrics (
@@ -187,6 +174,7 @@ CREATE TABLE IF NOT EXISTS impact_metrics (
     created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
 
+-- Create achievement_definitions table
 CREATE TABLE IF NOT EXISTS achievement_definitions (
     id VARCHAR(50) PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -197,6 +185,7 @@ CREATE TABLE IF NOT EXISTS achievement_definitions (
     created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
 
+-- Create user_achievements table
 CREATE TABLE IF NOT EXISTS user_achievements (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     user_id VARCHAR(255) NOT NULL REFERENCES users(id) ON DELETE CASCADE,
@@ -206,6 +195,7 @@ CREATE TABLE IF NOT EXISTS user_achievements (
     UNIQUE(user_id, achievement_id)
 );
 
+-- Create impact_reports table
 CREATE TABLE IF NOT EXISTS impact_reports (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     user_id VARCHAR(255) NOT NULL REFERENCES users(id) ON DELETE CASCADE,
@@ -215,6 +205,7 @@ CREATE TABLE IF NOT EXISTS impact_reports (
     expires_at TIMESTAMP WITH TIME ZONE NOT NULL
 );
 
+-- Create social_shares table
 CREATE TABLE IF NOT EXISTS social_shares (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     user_id VARCHAR(255) NOT NULL REFERENCES users(id) ON DELETE CASCADE,
@@ -223,13 +214,6 @@ CREATE TABLE IF NOT EXISTS social_shares (
     share_url VARCHAR(255) NOT NULL,
     created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
-
--- Create indexes for impact tables
-CREATE INDEX IF NOT EXISTS idx_impact_metrics_user_id ON impact_metrics(user_id);
-CREATE INDEX IF NOT EXISTS idx_impact_metrics_drop_off_id ON impact_metrics(drop_off_id);
-CREATE INDEX IF NOT EXISTS idx_user_achievements_user_id ON user_achievements(user_id);
-CREATE INDEX IF NOT EXISTS idx_impact_reports_user_id ON impact_reports(user_id);
-CREATE INDEX IF NOT EXISTS idx_social_shares_user_id ON social_shares(user_id);
 
 -- Premium migrations
 CREATE TABLE IF NOT EXISTS premium_features (
@@ -242,6 +226,7 @@ CREATE TABLE IF NOT EXISTS premium_features (
     updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
 
+-- Create subscriptions table
 CREATE TABLE IF NOT EXISTS subscriptions (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     user_id VARCHAR(255) NOT NULL REFERENCES users(id) ON DELETE CASCADE,
@@ -255,6 +240,7 @@ CREATE TABLE IF NOT EXISTS subscriptions (
     UNIQUE(user_id)
 );
 
+-- Create user_premium_features table
 CREATE TABLE IF NOT EXISTS user_premium_features (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     user_id VARCHAR(255) NOT NULL REFERENCES users(id) ON DELETE CASCADE,
@@ -264,6 +250,7 @@ CREATE TABLE IF NOT EXISTS user_premium_features (
     UNIQUE(user_id, feature_id)
 );
 
+-- Create payment_methods table
 CREATE TABLE IF NOT EXISTS payment_methods (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     user_id VARCHAR(255) NOT NULL REFERENCES users(id) ON DELETE CASCADE,
@@ -277,6 +264,7 @@ CREATE TABLE IF NOT EXISTS payment_methods (
     updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
 
+-- Create invoices table
 CREATE TABLE IF NOT EXISTS invoices (
     id VARCHAR(255) PRIMARY KEY DEFAULT uuid_generate_v4(),
     user_id VARCHAR(255) NOT NULL REFERENCES users(id) ON DELETE CASCADE,
@@ -290,14 +278,37 @@ CREATE TABLE IF NOT EXISTS invoices (
     created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
 
--- Create indexes for premium tables
+-- Now create all indexes after tables are fully created
+CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
+CREATE INDEX IF NOT EXISTS idx_users_zip_code ON users(zip_code);
+CREATE INDEX IF NOT EXISTS idx_items_category_id ON items(category_id);
+CREATE INDEX IF NOT EXISTS idx_items_name ON items(name);
+CREATE INDEX IF NOT EXISTS idx_guest_preferences_session_id ON guest_preferences(session_id);
+CREATE INDEX IF NOT EXISTS idx_password_reset_tokens_user_id ON password_reset_tokens(user_id);
+CREATE INDEX IF NOT EXISTS idx_password_reset_tokens_token ON password_reset_tokens(token);
+CREATE INDEX IF NOT EXISTS idx_facilities_location ON facilities USING GIST (location);
+CREATE INDEX IF NOT EXISTS idx_facilities_zip_code ON facilities(zip_code);
+CREATE INDEX IF NOT EXISTS idx_facility_hours_facility_id ON facility_hours(facility_id);
+CREATE INDEX IF NOT EXISTS idx_facility_items_facility_id ON facility_items(facility_id);
+CREATE INDEX IF NOT EXISTS idx_facility_items_item_id ON facility_items(item_id);
+CREATE INDEX IF NOT EXISTS idx_drop_offs_user_id ON drop_offs(user_id);
+CREATE INDEX IF NOT EXISTS idx_drop_offs_guest_session_id ON drop_offs(guest_session_id);
+CREATE INDEX IF NOT EXISTS idx_drop_offs_facility_id ON drop_offs(facility_id);
+CREATE INDEX IF NOT EXISTS idx_drop_offs_drop_off_date ON drop_offs(drop_off_date);
+CREATE INDEX IF NOT EXISTS idx_drop_off_items_drop_off_id ON drop_off_items(drop_off_id);
+CREATE INDEX IF NOT EXISTS idx_donation_receipts_drop_off_id ON donation_receipts(drop_off_id);
+CREATE INDEX IF NOT EXISTS idx_impact_metrics_user_id ON impact_metrics(user_id);
+CREATE INDEX IF NOT EXISTS idx_impact_metrics_drop_off_id ON impact_metrics(drop_off_id);
+CREATE INDEX IF NOT EXISTS idx_user_achievements_user_id ON user_achievements(user_id);
+CREATE INDEX IF NOT EXISTS idx_impact_reports_user_id ON impact_reports(user_id);
+CREATE INDEX IF NOT EXISTS idx_social_shares_user_id ON social_shares(user_id);
 CREATE INDEX IF NOT EXISTS idx_subscriptions_user_id ON subscriptions(user_id);
 CREATE INDEX IF NOT EXISTS idx_payment_methods_user_id ON payment_methods(user_id);
 CREATE INDEX IF NOT EXISTS idx_invoices_user_id ON invoices(user_id);
 CREATE INDEX IF NOT EXISTS idx_invoices_subscription_id ON invoices(subscription_id);
 CREATE INDEX IF NOT EXISTS idx_user_premium_features_user_id ON user_premium_features(user_id);
 
--- Update schema migrations
+-- Mark this migration as applied
 INSERT INTO schema_migrations (version, dirty) 
 VALUES (2, false) 
 ON CONFLICT (version) 
