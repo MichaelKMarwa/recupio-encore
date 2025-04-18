@@ -352,17 +352,19 @@ export const listFacilities = api(
   },
   async (params: { 
     zipCode?: Query<string>,
-    itemIds?: Query<string[]>
+    itemIds?: Query<string[] | string>
   }): Promise<{ facilities: Facility[] }> => {
     const facilities: Facility[] = [];
     
     // Build query conditions
-    if (params.itemIds && params.itemIds.length > 0) {
+    if (params.itemIds) {
+      const itemIdsArray = Array.isArray(params.itemIds) ? params.itemIds : [params.itemIds];
+      
       for await (const row of db.query`
         SELECT DISTINCT f.* 
         FROM facilities f
         JOIN facility_items fi ON f.id = fi.facility_id
-        WHERE fi.item_id = ANY(${params.itemIds}::uuid[])
+        WHERE fi.item_id = ANY(${itemIdsArray}::uuid[])
         ORDER BY f.name
       `) {
         facilities.push(await enrichFacilityData(row));
@@ -391,7 +393,11 @@ export const listFacilities = api(
   }
 );
 
-// GET /api/facilities/best-match
+// Convert string IDs to proper UUID array for PostgreSQL
+function convertToUUIDArray(itemIds: string | string[]): string[] {
+  return Array.isArray(itemIds) ? itemIds : [itemIds];
+}
+
 export const findBestMatch = api(
   { 
     method: "GET", 
@@ -399,62 +405,51 @@ export const findBestMatch = api(
     expose: true 
   },
   async (params: { 
-    itemIds: Query<string[]>,
-    zipCode?: Query<string>
+    itemIds: string | string[],
+    zipCode?: string
   }): Promise<BestMatchResponse> => {
-    let queryStr = `
-      WITH matches AS (
-        SELECT f.*, COUNT(fi.item_id) AS match_count
-        FROM facilities f
-        JOIN facility_items fi ON f.id = fi.facility_id
-        WHERE fi.item_id = ANY($1::uuid[])
-    `;
-    
-    const queryParams = [params.itemIds];
-    
-    if (params.zipCode) {
-      queryStr += ` AND f.zip_code = $2`;
-      queryParams.push(params.zipCode);
-    }
-    
-    queryStr += `
-        GROUP BY f.id
-        ORDER BY match_count DESC
-        LIMIT 1
-      )
-      SELECT *, match_count FROM matches
-    `;
+    // Ensure itemIds is an array
+    const itemIds = convertToUUIDArray(params.itemIds);
     
     const rows: any[] = [];
+    
+    // Use tagged template literals with parameters to construct the proper query
+    // We need to break it down since we're conditionally filtering by zipCode
     if (params.zipCode) {
-      for await (const row of db.query`
+      // With zipCode filter
+      const matchesQuery = db.query`
         WITH matches AS (
           SELECT f.*, COUNT(fi.item_id) AS match_count
           FROM facilities f
           JOIN facility_items fi ON f.id = fi.facility_id
-          WHERE fi.item_id = ANY(${params.itemIds}::uuid[])
+          WHERE fi.item_id = ANY(${itemIds}::uuid[])
           AND f.zip_code = ${params.zipCode}
           GROUP BY f.id
           ORDER BY match_count DESC
           LIMIT 1
         )
         SELECT *, match_count FROM matches
-      `) {
+      `;
+      
+      for await (const row of matchesQuery) {
         rows.push(row);
       }
     } else {
-      for await (const row of db.query`
+      // Without zipCode filter
+      const matchesQuery = db.query`
         WITH matches AS (
           SELECT f.*, COUNT(fi.item_id) AS match_count
           FROM facilities f
           JOIN facility_items fi ON f.id = fi.facility_id
-          WHERE fi.item_id = ANY(${params.itemIds}::uuid[])
+          WHERE fi.item_id = ANY(${itemIds}::uuid[])
           GROUP BY f.id
           ORDER BY match_count DESC
           LIMIT 1
         )
         SELECT *, match_count FROM matches
-      `) {
+      `;
+      
+      for await (const row of matchesQuery) {
         rows.push(row);
       }
     }
@@ -463,7 +458,7 @@ export const findBestMatch = api(
     
     const best = rows[0];
     const facility = await enrichFacilityData(best);
-    const matchPercentage = (best.match_count / params.itemIds.length * 100).toFixed(2);
+    const matchPercentage = (best.match_count / itemIds.length * 100).toFixed(2);
     
     return {
       facility,

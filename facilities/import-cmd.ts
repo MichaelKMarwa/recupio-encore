@@ -82,47 +82,77 @@ async function importFacilities() {
         ? `POINT(${mappedFacility.longitude} ${mappedFacility.latitude})` 
         : null;
       
-      // Insert facility into database
-      const query = `
-        INSERT INTO facilities (
-          name, type, address, city, state, zip_code, phone, website,
-          hours, accepted_items, rejected_items, notes, distance, rating,
-          image_url, latitude, longitude, location, tags, description,
-          tax_deductible, pickup_available, extra_data, created_at, updated_at
-        ) VALUES (
-          $1, $2, $3, $4, $5, $6, $7, $8,
-          $9, $10, $11, $12, $13, $14,
-          $15, $16, $17, ${point ? `ST_GeographyFromText('SRID=4326;${point}')` : 'NULL'}, $18, $19,
-          $20, $21, $22, NOW(), NOW()
-        )
-      `;
-      
-      // Insert into DB
-      await db.exec(
-        query,
-        mappedFacility.name,
-        mappedFacility.type,
-        mappedFacility.address,
-        mappedFacility.city,
-        mappedFacility.state,
-        mappedFacility.zipCode,
-        mappedFacility.phone,
-        mappedFacility.website,
-        mappedFacility.hours,
-        mappedFacility.acceptedItems,
-        mappedFacility.rejectedItems,
-        mappedFacility.notes,
-        mappedFacility.distance,
-        mappedFacility.rating,
-        mappedFacility.imageUrl,
-        mappedFacility.latitude,
-        mappedFacility.longitude,
-        mappedFacility.tags,
-        mappedFacility.description,
-        mappedFacility.taxDeductible,
-        mappedFacility.pickupAvailable,
-        JSON.stringify(facility)
-      );
+      // Use proper SQL tagged template literals for Encore.ts
+      if (point) {
+        await db.exec`
+          INSERT INTO facilities (
+            name, type, address, city, state, zip_code, phone, website,
+            hours, accepted_items, rejected_items, notes, distance, rating,
+            image_url, latitude, longitude, location, tags, description,
+            tax_deductible, pickup_available, raw_data, created_at, updated_at
+          ) VALUES (
+            ${mappedFacility.name},
+            ${mappedFacility.type},
+            ${mappedFacility.address},
+            ${mappedFacility.city},
+            ${mappedFacility.state},
+            ${mappedFacility.zipCode},
+            ${mappedFacility.phone},
+            ${mappedFacility.website},
+            ${mappedFacility.hours},
+            ${mappedFacility.acceptedItems},
+            ${mappedFacility.rejectedItems},
+            ${mappedFacility.notes},
+            ${mappedFacility.distance},
+            ${mappedFacility.rating},
+            ${mappedFacility.imageUrl},
+            ${mappedFacility.latitude},
+            ${mappedFacility.longitude},
+            ST_GeographyFromText(${`SRID=4326;${point}`}),
+            ${mappedFacility.tags},
+            ${mappedFacility.description},
+            ${mappedFacility.taxDeductible},
+            ${mappedFacility.pickupAvailable},
+            ${JSON.stringify(facility)},
+            NOW(),
+            NOW()
+          )
+        `;
+      } else {
+        await db.exec`
+          INSERT INTO facilities (
+            name, type, address, city, state, zip_code, phone, website,
+            hours, accepted_items, rejected_items, notes, distance, rating,
+            image_url, latitude, longitude, tags, description,
+            tax_deductible, pickup_available, raw_data, created_at, updated_at
+          ) VALUES (
+            ${mappedFacility.name},
+            ${mappedFacility.type},
+            ${mappedFacility.address},
+            ${mappedFacility.city},
+            ${mappedFacility.state},
+            ${mappedFacility.zipCode},
+            ${mappedFacility.phone},
+            ${mappedFacility.website},
+            ${mappedFacility.hours},
+            ${mappedFacility.acceptedItems},
+            ${mappedFacility.rejectedItems},
+            ${mappedFacility.notes},
+            ${mappedFacility.distance},
+            ${mappedFacility.rating},
+            ${mappedFacility.imageUrl},
+            ${mappedFacility.latitude},
+            ${mappedFacility.longitude},
+            ${mappedFacility.tags},
+            ${mappedFacility.description},
+            ${mappedFacility.taxDeductible},
+            ${mappedFacility.pickupAvailable},
+            ${JSON.stringify(facility)},
+            NOW(),
+            NOW()
+          )
+        `;
+      }
       
       count++;
       

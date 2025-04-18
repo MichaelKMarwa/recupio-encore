@@ -16,7 +16,7 @@
     ],
     "databases": {
         "main": {
-            "migrations": "./shared/migrations",
+            "migrations": "./migrations",
             "provider": "postgresql",
             "connection_string": "${NEON_CONNECTION_STRING}"
         }
