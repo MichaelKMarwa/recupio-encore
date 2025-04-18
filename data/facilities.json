@@ -1,0 +1,4237 @@
+[{
+  "rank": 1,
+  "title": "Cash For Scrap",
+  "price": null,
+  "categoryName": "Recycling center",
+  "address": "37 Park St, Jeppestown, Johannesburg, 2094, South Africa",
+  "neighborhood": "Jeppestown",
+  "street": "37 Park St",
+  "city": "Johannesburg",
+  "postalCode": "2094",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 79 651 7225",
+  "phoneUnformatted": "+27796517225",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.205641,
+    "lng": 28.063841
+  },
+  "totalScore": 3.8,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJnWgNc4gOlR4RXBIjDV9NJ48",
+  "categories": [
+    "Recycling center"
+  ],
+  "fid": "0x1e950e88730d689d:0x8f274d5f0d23125c",
+  "cid": "10315298542153044572",
+  "reviewsCount": 6,
+  "imagesCount": 3,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:33.821Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Recycling": [
+      {
+        "Batteries": true
+      },
+      {
+        "Metal cans": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Cash%20For%20Scrap&query_place_id=ChIJnWgNc4gOlR4RXBIjDV9NJ48",
+  "searchPageUrl": "https://www.google.com/maps/search/recycling/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "recycling",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhF0QJyIkApg6OeYztZM4zusZejgMNDHsxC0eRUNaUj8_o4Nb5HplGsnGPkYTGOUOXOTa5w3jsS4i6u6J3kNXxVwt4AY79_pseFYoJ7DyErRlV--0hpCbHJzhxt1CZTuzm3oTnkKFmSesttIywgIYzvDOxaUHmktbc1_V5ubh0EUutJAZ0lFyZuSamAQL3Qo8JsIUcU=w408-h306-k-no",
+  "kgmid": "/g/11btz1b4c9"
+},
+{
+  "rank": 2,
+  "title": "Collectables Recycilng and solutions",
+  "price": null,
+  "categoryName": "Recycling center",
+  "address": "28 Auret St, Jeppestown, Johannesburg, 2094, South Africa",
+  "neighborhood": "Jeppestown",
+  "street": "28 Auret St",
+  "city": "Johannesburg",
+  "postalCode": "2094",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 68 275 0269",
+  "phoneUnformatted": "+27682750269",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2069411,
+    "lng": 28.0622852
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJjYBgPYYPlR4RnamJjpLV6jA",
+  "categories": [
+    "Recycling center"
+  ],
+  "fid": "0x1e950f863d60808d:0x30ead5928e89a99d",
+  "cid": "3524864483804162461",
+  "reviewsCount": 1,
+  "imagesCount": 4,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:33.822Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Collectables%20Recycilng%20and%20solutions&query_place_id=ChIJjYBgPYYPlR4RnamJjpLV6jA",
+  "searchPageUrl": "https://www.google.com/maps/search/recycling/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "recycling",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB913iSPdfHxM5GIuw14i1vSh4LOru8TX5G8VrWI_e4txLFGP7HJFox1vF8FRaeYEIm5CjXYaDSUJmxy08BZ4yngq_ZD0BH1YPRatoKQaxfbjxZkIF5Wy-jbQv3QnAX-RhTH9zuSrg=w426-h240-k-no",
+  "kgmid": "/g/11sf9pc0m5"
+},
+{
+  "rank": 3,
+  "title": "Planet Waste Paper",
+  "price": null,
+  "categoryName": "Recycling center",
+  "address": "24 New Goch Rd, Benrose, Johannesburg, 2011, South Africa",
+  "neighborhood": "Benrose",
+  "street": "24 New Goch Rd",
+  "city": "Johannesburg",
+  "postalCode": "2011",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 81 880 6887",
+  "phoneUnformatted": "+27818806887",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2105529,
+    "lng": 28.0787605
+  },
+  "totalScore": 3.5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJea9CWWgOlR4R4sXXXVv4B1Y",
+  "categories": [
+    "Recycling center"
+  ],
+  "fid": "0x1e950e685942af79:0x5607f85b5dd7c5e2",
+  "cid": "6199196483398911458",
+  "reviewsCount": 2,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:33.822Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "7 AM to 4 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "7 AM to 4 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "7 AM to 4 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "7 AM to 4 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "7 AM to 2 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Planet%20Waste%20Paper&query_place_id=ChIJea9CWWgOlR4R4sXXXVv4B1Y",
+  "searchPageUrl": "https://www.google.com/maps/search/recycling/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "recycling",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IxpHfGhkzZc1x8cDIAQL8w&cb_client=search.gws-prod.gps&w=408&h=240&yaw=76.69542&pitch=0&thumbfov=100",
+  "kgmid": "/g/11f3x69wqp"
+},
+{
+  "rank": 4,
+  "title": "Verda Waste (PTY) Ltd",
+  "price": null,
+  "categoryName": "Recycling center",
+  "address": "30 Julbert Rd, Benrose, Johannesburg, 2011, South Africa",
+  "neighborhood": "Benrose",
+  "street": "30 Julbert Rd",
+  "city": "Johannesburg",
+  "postalCode": "2011",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 10 410 5495",
+  "phoneUnformatted": "+27104105495",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2095604,
+    "lng": 28.0825315
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ5UZVEGMLlR4RBeOYRFGNwO4",
+  "categories": [
+    "Recycling center"
+  ],
+  "fid": "0x1e950b63105546e5:0xeec08d514498e305",
+  "cid": "17203905956738032389",
+  "reviewsCount": 1,
+  "imagesCount": 3,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:33.822Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 4:30 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 4:30 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 4:30 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 4:30 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 4:30 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Verda%20Waste%20(PTY)%20Ltd&query_place_id=ChIJ5UZVEGMLlR4RBeOYRFGNwO4",
+  "searchPageUrl": "https://www.google.com/maps/search/recycling/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "recycling",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPCRnQpE8VBCMZJI4pg-aVGzpg0E8EkRY0p4Mnx=w616-h240-k-no",
+  "kgmid": "/g/11fy2q8s2x"
+},
+{
+  "rank": 5,
+  "title": "Remade Recycling Johannesburg Buy Back Centre",
+  "price": null,
+  "categoryName": "Recycling center",
+  "address": "108 Albert St, City and Suburban, Johannesburg, 2094, South Africa",
+  "neighborhood": "City and Suburban",
+  "street": "108 Albert St",
+  "city": "Johannesburg",
+  "postalCode": "2094",
+  "state": null,
+  "countryCode": "ZA",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.207879,
+    "lng": 28.0521288
+  },
+  "totalScore": 3,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJo7bkdJAOlR4RN8hZbX-RbaY",
+  "categories": [
+    "Recycling center"
+  ],
+  "fid": "0x1e950e9074e4b6a3:0xa66d917f6d59c837",
+  "cid": "11992401359238973495",
+  "reviewsCount": 1,
+  "imagesCount": 2,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:33.823Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Recycling": [
+      {
+        "Metal cans": true
+      },
+      {
+        "Plastic bottles": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Remade%20Recycling%20Johannesburg%20Buy%20Back%20Centre&query_place_id=ChIJo7bkdJAOlR4RN8hZbX-RbaY",
+  "searchPageUrl": "https://www.google.com/maps/search/recycling/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "recycling",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=s6nVhgifNK3kJRGREix3ZA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=163.37424&pitch=0&thumbfov=100",
+  "kgmid": "/g/11f647_f7l"
+},
+{
+  "rank": 6,
+  "title": "LnL Recycling",
+  "price": null,
+  "categoryName": "Waste management service",
+  "address": "14 Auret St, North Doornfontein, Johannesburg, 2094, South Africa",
+  "neighborhood": "North Doornfontein",
+  "street": "14 Auret St",
+  "city": "Johannesburg",
+  "postalCode": "2094",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 11 083 8147",
+  "phoneUnformatted": "+27110838147",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2080558,
+    "lng": 28.0625807
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJmztyVYgOlR4RHi4k0JKa2L8",
+  "categories": [
+    "Waste management service"
+  ],
+  "fid": "0x1e950e8855723b9b:0xbfd89a92d0242e1e",
+  "cid": "13823969011561672222",
+  "reviewsCount": 1,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:33.823Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=LnL%20Recycling&query_place_id=ChIJmztyVYgOlR4RHi4k0JKa2L8",
+  "searchPageUrl": "https://www.google.com/maps/search/recycling/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "recycling",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Cz57naF277576wW4P2Trzg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=82.33195&pitch=0&thumbfov=100",
+  "kgmid": "/g/11h_7jyqd_"
+},
+{
+  "rank": 7,
+  "title": "Mzobanzi Recycling",
+  "price": null,
+  "categoryName": "Recycling center",
+  "address": "1 Delvers St, Marshalltown, Johannesburg, 2107, South Africa",
+  "neighborhood": "Marshalltown",
+  "street": "1 Delvers St",
+  "city": "Johannesburg",
+  "postalCode": "2107",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 81 540 1251",
+  "phoneUnformatted": "+27815401251",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2095569,
+    "lng": 28.0487083
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJB0bRlsQPlR4RSnz5oCtMHq8",
+  "categories": [
+    "Recycling center"
+  ],
+  "fid": "0x1e950fc496d14607:0xaf1e4c2ba0f97c4a",
+  "cid": "12618606956206718026",
+  "reviewsCount": 1,
+  "imagesCount": 25,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:33.823Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Thursday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Friday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Open 24 hours"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Recycling": [
+      {
+        "Plastic bottles": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Mzobanzi%20Recycling&query_place_id=ChIJB0bRlsQPlR4RSnz5oCtMHq8",
+  "searchPageUrl": "https://www.google.com/maps/search/recycling/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "recycling",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipM-v9ZPw8eaQBIkAb2VwAaj4LSAFuWOUNJ8BP2_=w426-h240-k-no",
+  "kgmid": "/g/11j8_522mk"
+},
+{
+  "rank": 8,
+  "title": "City Waste",
+  "price": null,
+  "categoryName": "Recycling center",
+  "address": "9 Meikle St, City and Suburban, Johannesburg, 2094, South Africa",
+  "neighborhood": "City and Suburban",
+  "street": "9 Meikle St",
+  "city": "Johannesburg",
+  "postalCode": "2094",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 71 507 9649",
+  "phoneUnformatted": "+27715079649",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.20911,
+    "lng": 28.05344
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJUSBF7HAPlR4RLoydt0SAUZo",
+  "categories": [
+    "Recycling center"
+  ],
+  "fid": "0x1e950f70ec452051:0x9a518044b79d8c2e",
+  "cid": "11119809987581152302",
+  "reviewsCount": 4,
+  "imagesCount": 2,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:33.823Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "7:30 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "7:30 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "7:30 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "7:30 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "7:30 AM to 2 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "8 AM to 2 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Recycling": [
+      {
+        "Plastic bottles": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=City%20Waste&query_place_id=ChIJUSBF7HAPlR4RLoydt0SAUZo",
+  "searchPageUrl": "https://www.google.com/maps/search/recycling/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "recycling",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=uQziiQB2A_Li1fU3r37yoA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=353.0902&pitch=0&thumbfov=100",
+  "kgmid": "/g/11fntb810y"
+},
+{
+  "rank": 9,
+  "title": "SAR RECYCLE SA - Buyers of Catalytic Converters",
+  "price": null,
+  "categoryName": "Recycling center",
+  "address": "Unit A, 25 Beaufort St, Troyeville, Johannesburg, 2094, South Africa",
+  "neighborhood": "Troyeville",
+  "street": "Unit A, 25 Beaufort St",
+  "city": "Johannesburg",
+  "postalCode": "2094",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://www.sarrecyclesa.com/",
+  "phone": "+27 71 175 0054",
+  "phoneUnformatted": "+27711750054",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2002486,
+    "lng": 28.0632596
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJgTVft14PlR4Rxx59O6izRcg",
+  "categories": [
+    "Recycling center",
+    "Metal processing company",
+    "Scrap metal dealer",
+    "Waste management service"
+  ],
+  "fid": "0x1e950f5eb75f3581:0xc845b3a83b7d1ec7",
+  "cid": "14431138116112555719",
+  "reviewsCount": 12,
+  "imagesCount": 12,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:33.823Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 4 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 4 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 4 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 4 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 4 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "8:30 AM to 12 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=SAR%20RECYCLE%20SA%20-%20Buyers%20of%20Catalytic%20Converters&query_place_id=ChIJgTVft14PlR4Rxx59O6izRcg",
+  "searchPageUrl": "https://www.google.com/maps/search/recycling/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "recycling",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-cCnbbAxqij0HdWzg4Ta6w&cb_client=search.gws-prod.gps&w=408&h=240&yaw=236.72797&pitch=0&thumbfov=100",
+  "kgmid": "/g/11l2hq183z"
+},
+{
+  "rank": 10,
+  "title": "Phambili recycling",
+  "price": null,
+  "categoryName": "Waste management service",
+  "address": "64 Hans St, Jeppestown, Johannesburg, 2043, South Africa",
+  "neighborhood": "Jeppestown",
+  "street": "64 Hans St",
+  "city": "Johannesburg",
+  "postalCode": "2043",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://phambilirecycling.co.za/",
+  "phone": "+27 73 207 6236",
+  "phoneUnformatted": "+27732076236",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.20351,
+    "lng": 28.06581
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJG7QMxEIPlR4RLSk4EJVzI_Y",
+  "categories": [
+    "Waste management service"
+  ],
+  "fid": "0x1e950f42c40cb41b:0xf62373951038292d",
+  "cid": "17736146841574582573",
+  "reviewsCount": 1,
+  "imagesCount": 4,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:33.823Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 5:30 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Recycling": [
+      {
+        "Plastic bottles": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Phambili%20recycling&query_place_id=ChIJG7QMxEIPlR4RLSk4EJVzI_Y",
+  "searchPageUrl": "https://www.google.com/maps/search/recycling/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "recycling",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipM7eA7Qb6FO_Wm3FBXz5w846halBEibQNGwQjGl=w408-h271-k-no",
+  "kgmid": "/g/11p74bv3t3"
+},
+{
+  "rank": 11,
+  "title": "Eloff Recycling",
+  "price": null,
+  "categoryName": "Recycling center",
+  "address": "Opposite Fair Price, 11 Salisbury St, Salisbury Claims, Johannesburg, 2001, South Africa",
+  "neighborhood": "Salisbury Claims",
+  "street": "Opposite Fair Price, 11 Salisbury St",
+  "city": "Johannesburg",
+  "postalCode": "2001",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 71 037 5484",
+  "phoneUnformatted": "+27710375484",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2097475,
+    "lng": 28.0460661
+  },
+  "totalScore": 2.5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJUS_KXxImaAERJzfu1zu2JPE",
+  "categories": [
+    "Recycling center"
+  ],
+  "fid": "0x16826125fca2f51:0xf124b63bd7ee3727",
+  "cid": "17376213630444255015",
+  "reviewsCount": 2,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:33.823Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Recycling": [
+      {
+        "Batteries": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Eloff%20Recycling&query_place_id=ChIJUS_KXxImaAERJzfu1zu2JPE",
+  "searchPageUrl": "https://www.google.com/maps/search/recycling/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "recycling",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=qui1Xwhz-Ns2pUYU7C_4nA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=19.572304&pitch=0&thumbfov=100",
+  "kgmid": "/g/11b7hmzypq"
+},
+{
+  "rank": 12,
+  "title": "Cash 4 Scrap",
+  "price": null,
+  "categoryName": "Recycling center",
+  "address": "Main St, Jeppestown, Johannesburg, 2094, South Africa",
+  "neighborhood": "Jeppestown",
+  "street": "Main St",
+  "city": "Johannesburg",
+  "postalCode": "2094",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 78 007 6854",
+  "phoneUnformatted": "+27780076854",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.203511,
+    "lng": 28.071778
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJvbI2U3sOlR4RhlVj73LP5RU",
+  "categories": [
+    "Recycling center"
+  ],
+  "fid": "0x1e950e7b5336b2bd:0x15e5cf72ef635586",
+  "cid": "1577895337012712838",
+  "reviewsCount": 0,
+  "imagesCount": 4,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:33.823Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Recycling": [
+      {
+        "Batteries": true
+      },
+      {
+        "Metal cans": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Cash%204%20Scrap&query_place_id=ChIJvbI2U3sOlR4RhlVj73LP5RU",
+  "searchPageUrl": "https://www.google.com/maps/search/recycling/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "recycling",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGmVSBeBh27GE0128BZ0UktqF-94W1TjYNtGovgcSz9ynEXJwvb_zCRNzNwRPdYb9xDZCzIoe5VKjjLvDUu3Zb6evvNwIz9ywjkTJVFxl8IIDH8lYZidTC6GCM5RSupUfMqYTT3a5Cff2vz0MMh5Sxs2n0iA8Qpnab58gcjYMIle8IktPJcaPwt6sw9yi4Au8esWw=w408-h306-k-no",
+  "kgmid": "/g/11b807vzgv"
+},
+{
+  "rank": 1,
+  "title": "Genesis Landfill",
+  "price": null,
+  "categoryName": "Garbage collection service",
+  "address": "Robinson 82-Ir, Johannesburg, 2001, South Africa",
+  "neighborhood": "Robinson 82-Ir",
+  "street": null,
+  "city": "Johannesburg",
+  "postalCode": "2001",
+  "state": null,
+  "countryCode": "ZA",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2214715,
+    "lng": 28.0487311
+  },
+  "totalScore": 4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJWyfsr68PlR4R5oMEHC6ossI",
+  "categories": [
+    "Garbage collection service"
+  ],
+  "fid": "0x1e950fafafec275b:0xc2b2a82e1c0483e6",
+  "cid": "14029460705204536294",
+  "reviewsCount": 3,
+  "imagesCount": null,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:34.487Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Genesis%20Landfill&query_place_id=ChIJWyfsr68PlR4R5oMEHC6ossI",
+  "searchPageUrl": "https://www.google.com/maps/search/trash/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "trash",
+  "language": "en",
+  "isAdvertisement": false,
+  "kgmid": "/g/11gh6bp3qz"
+},
+{
+  "rank": 2,
+  "title": "Robinson Landfill Site",
+  "price": null,
+  "categoryName": "Garbage dump",
+  "address": "Turffontein Rd, Stafford, Johannesburg, 2137, South Africa",
+  "neighborhood": "Stafford",
+  "street": "Turffontein Rd",
+  "city": "Johannesburg",
+  "postalCode": "2137",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 11 375 5555",
+  "phoneUnformatted": "+27113755555",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2314589,
+    "lng": 28.042306
+  },
+  "totalScore": 3.8,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJCW0Y_ucOlR4RE095_YRsD_U",
+  "categories": [
+    "Garbage dump"
+  ],
+  "fid": "0x1e950ee7fe186d09:0xf50f6c84fd794f13",
+  "cid": "17658451982387072787",
+  "reviewsCount": 37,
+  "imagesCount": 10,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:34.487Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Thursday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Friday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Open 24 hours"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Robinson%20Landfill%20Site&query_place_id=ChIJCW0Y_ucOlR4RE095_YRsD_U",
+  "searchPageUrl": "https://www.google.com/maps/search/trash/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "trash",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-nhLzthhYzgjR3RrmpHEy3qAUPQp0sNU9BPCEqNCu4apZ7jw7r-XPsPTMUI8eweuC5Tn5blqd1cuXnXh50T5idsFY10KXGP_3uU3u6WlpI5h6ERyvDgWBKots5wVHlI90w3pxA=w408-h306-k-no",
+  "kgmid": "/g/11bysjt28k"
+},
+{
+  "rank": 3,
+  "title": "Pikitup Garden Site",
+  "price": null,
+  "categoryName": "Garbage dump",
+  "address": "17, 19 5th St, Bezuidenhout Valley, Johannesburg, 2094, South Africa",
+  "neighborhood": "Bezuidenhout Valley",
+  "street": "17, 19 5th St",
+  "city": "Johannesburg",
+  "postalCode": "2094",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://www.pikitup.co.za/",
+  "phone": "+27 82 312 3882",
+  "phoneUnformatted": "+27823123882",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.1879748,
+    "lng": 28.0844232
+  },
+  "totalScore": 3.9,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJz4WjBd8NlR4Rgaq9y24puiE",
+  "categories": [
+    "Garbage dump"
+  ],
+  "fid": "0x1e950ddf05a385cf:0x21ba296ecbbdaa81",
+  "cid": "2430300504761150081",
+  "reviewsCount": 29,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:34.487Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "8 AM to 5 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Recycling": [
+      {
+        "Metal cans": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Pikitup%20Garden%20Site&query_place_id=ChIJz4WjBd8NlR4Rgaq9y24puiE",
+  "searchPageUrl": "https://www.google.com/maps/search/trash/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "trash",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5a76JP2Uxul9penb75z6xA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=172.87718&pitch=0&thumbfov=100",
+  "kgmid": "/g/11cm6bgs_l"
+},
+{
+  "rank": 6,
+  "title": "SkipWaste (PTY) LTD",
+  "price": null,
+  "categoryName": "Waste management service",
+  "address": "19 Turf Siding Rd, Springfield, Johannesburg, 2197, South Africa",
+  "neighborhood": "Springfield",
+  "street": "19 Turf Siding Rd",
+  "city": "Johannesburg",
+  "postalCode": "2197",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://www.skipwaste.co.za/",
+  "phone": "+27 11 699 1000",
+  "phoneUnformatted": "+27116991000",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2265817,
+    "lng": 28.0513632
+  },
+  "totalScore": 4.5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJM1SFC0oPlR4RE1-tK5Z9PpA",
+  "categories": [
+    "Waste management service"
+  ],
+  "fid": "0x1e950f4a0b855433:0x903e7d962bad5f13",
+  "cid": "10393883073949032211",
+  "reviewsCount": 2,
+  "imagesCount": 2,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:34.487Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "6 AM to 6 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "6 AM to 6 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "6 AM to 6 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "6 AM to 6 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "6 AM to 6 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=SkipWaste%20(PTY)%20LTD&query_place_id=ChIJM1SFC0oPlR4RE1-tK5Z9PpA",
+  "searchPageUrl": "https://www.google.com/maps/search/trash/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "trash",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=a0iu4dcz9IWihEZEusvTfw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=220.43268&pitch=0&thumbfov=100",
+  "kgmid": "/g/11kj425yh0"
+},
+{
+  "rank": 14,
+  "title": "bagolo bammuso (Pty) Ltd",
+  "price": null,
+  "categoryName": "Waste management service",
+  "address": "Plot 98, Luipaardsvlei, westonaria, 1759, South Africa",
+  "neighborhood": "Luipaardsvlei",
+  "street": "Plot 98",
+  "city": "westonaria",
+  "postalCode": "1759",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 67 987 0645",
+  "phoneUnformatted": "+27679870645",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2041028,
+    "lng": 28.0473051
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ2zKNxB8PlR4ROErv4WOoyKM",
+  "categories": [
+    "Waste management service"
+  ],
+  "fid": "0x1e950f1fc48d32db:0xa3c8a863e1ef4a38",
+  "cid": "11801867970470169144",
+  "reviewsCount": 0,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:34.488Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=bagolo%20bammuso%20(Pty)%20Ltd&query_place_id=ChIJ2zKNxB8PlR4ROErv4WOoyKM",
+  "searchPageUrl": "https://www.google.com/maps/search/trash/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "trash",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=onepqPr4P2sJ2-_EacvaWw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=65.02628&pitch=0&thumbfov=100",
+  "kgmid": "/g/11sbgvhg1b"
+},
+{
+  "rank": 18,
+  "title": "The Removals Booth",
+  "price": null,
+  "categoryName": "Waste management service",
+  "address": "Cnr Juta and, Melle St, Braamfontein, Johannesburg, 2001, South Africa",
+  "neighborhood": "Braamfontein",
+  "street": "Cnr Juta and, Melle St",
+  "city": "Johannesburg",
+  "postalCode": "2001",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://www.theremovalsbooth.co.za/",
+  "phone": "+27 69 363 5399",
+  "phoneUnformatted": "+27693635399",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.194342,
+    "lng": 28.036039
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJi3x52g4NlR4Rc-Dcf_y3fls",
+  "categories": [
+    "Waste management service",
+    "Bee relocation service",
+    "Chimney sweep",
+    "Debris removal service",
+    "Mover",
+    "Pest control service",
+    "Pool cleaning service",
+    "Tree service"
+  ],
+  "fid": "0x1e950d0eda797c8b:0x5b7eb7fc7fdce073",
+  "cid": "6592909199621808243",
+  "reviewsCount": 0,
+  "imagesCount": 29,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:34.488Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "8 AM to 3 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "8 AM to 1 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=The%20Removals%20Booth&query_place_id=ChIJi3x52g4NlR4Rc-Dcf_y3fls",
+  "searchPageUrl": "https://www.google.com/maps/search/trash/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "trash",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipOmCsDfnanIjN5Fvlud_QgheVLkEw4KLpxr-IXg=w408-h270-k-no",
+  "kgmid": "/g/11vb93slqj"
+},
+{
+  "rank": 1,
+  "title": "Mukelanokuhle Transport & Catering Services",
+  "price": null,
+  "categoryName": "Delivery Restaurant",
+  "address": "Unit No. 4, Eastbury Complex, Belgravia, 35 Berg St, Johannesburg, 2094, South Africa",
+  "neighborhood": "Malvern",
+  "street": "Unit No. 4, Eastbury Complex, Belgravia, 35 Berg St",
+  "city": "Johannesburg",
+  "postalCode": "2094",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 72 189 6407",
+  "phoneUnformatted": "+27721896407",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.20307,
+    "lng": 28.07251
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ0-oiyWQOlR4Rq3xBbBVQ8xg",
+  "categories": [
+    "Delivery Restaurant"
+  ],
+  "fid": "0x1e950e64c922ead3:0x18f350156c417cab",
+  "cid": "1797868729191726251",
+  "reviewsCount": 0,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:37.140Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "7 AM to 7 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "7 AM to 7 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "7 AM to 7 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "7 AM to 7 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "7 AM to 7 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "7 AM to 7 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "7 AM to 7 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Takeout": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Mukelanokuhle%20Transport%20%26%20Catering%20Services&query_place_id=ChIJ0-oiyWQOlR4Rq3xBbBVQ8xg",
+  "searchPageUrl": "https://www.google.com/maps/search/Pickup%20Services/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "Pickup Services",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=4pL8rksnyrZtgZj0L6N58g&cb_client=search.gws-prod.gps&w=408&h=240&yaw=1.4178317&pitch=0&thumbfov=100",
+  "kgmid": "/g/1hdzv0djd"
+},
+{
+  "rank": 2,
+  "title": "Drop IT",
+  "price": null,
+  "categoryName": "Transportation service",
+  "address": "130 Marshall St, Marshalltown, Johannesburg, 2107, South Africa",
+  "neighborhood": "Marshalltown",
+  "street": "130 Marshall St",
+  "city": "Johannesburg",
+  "postalCode": "2107",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 74 701 5723",
+  "phoneUnformatted": "+27747015723",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.20741,
+    "lng": 28.04458
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ-e2h86IOlR4R-f6di5zrOkU",
+  "categories": [
+    "Transportation service"
+  ],
+  "fid": "0x1e950ea2f3a1edf9:0x453aeb9c8b9dfef9",
+  "cid": "4988558594856058617",
+  "reviewsCount": 0,
+  "imagesCount": 3,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:37.140Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 8 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 8 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 8 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 8 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 8 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "9 AM to 8 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "9 AM to 6 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Drop%20IT&query_place_id=ChIJ-e2h86IOlR4R-f6di5zrOkU",
+  "searchPageUrl": "https://www.google.com/maps/search/Pickup%20Services/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "Pickup Services",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=3AXWEDMoo0vGx3XuH0rIHw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=185.63551&pitch=0&thumbfov=100",
+  "kgmid": "/g/11pb1yq_pj"
+},
+{
+  "rank": 4,
+  "title": "Jiffy It Now",
+  "price": null,
+  "categoryName": "Delivery service",
+  "address": "44 Stanley Ave, Braamfontein Werf, Johannesburg, 2092, South Africa",
+  "neighborhood": "Braamfontein Werf",
+  "street": "44 Stanley Ave",
+  "city": "Johannesburg",
+  "postalCode": "2092",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://www.jiffyitnow.com/",
+  "phone": "+27 81 804 1195",
+  "phoneUnformatted": "+27818041195",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.185387,
+    "lng": 28.01905
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJDw_mV4INlR4Rql8fB5kdvOQ",
+  "categories": [
+    "Delivery service",
+    "Beauty product supplier",
+    "Delivery Restaurant",
+    "Flower delivery",
+    "Food products supplier",
+    "Grocery delivery service",
+    "Market",
+    "Milk delivery service",
+    "Pizza delivery"
+  ],
+  "fid": "0x1e950d8257e60f0f:0xe4bc1d99071f5faa",
+  "cid": "16482081279355871146",
+  "reviewsCount": 1,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:37.140Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "10 AM to 12 AM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "10 AM to 12 AM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "10 AM to 12 AM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "10 AM to 12 AM"
+    },
+    {
+      "day": "Friday",
+      "hours": "10 AM to 12 AM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "10 AM to 12 AM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "10 AM to 10 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Delivery": true
+      },
+      {
+        "Takeout": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Jiffy%20It%20Now&query_place_id=ChIJDw_mV4INlR4Rql8fB5kdvOQ",
+  "searchPageUrl": "https://www.google.com/maps/search/Pickup%20Services/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "Pickup Services",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=eyQmAHbmeTsG5-3SvEQEfA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=214.81766&pitch=0&thumbfov=100",
+  "kgmid": "/g/11ffv17715"
+},
+{
+  "rank": 5,
+  "title": "MDS Collivery.net",
+  "price": null,
+  "categoryName": "Courier service",
+  "address": "58c Webber St, Selby, Johannesburg, 2001, South Africa",
+  "neighborhood": "Selby",
+  "street": "58c Webber St",
+  "city": "Johannesburg",
+  "postalCode": "2001",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://www.collivery.net/",
+  "phone": "+27 86 163 7000",
+  "phoneUnformatted": "+27861637000",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2148584,
+    "lng": 28.0406322
+  },
+  "totalScore": 3.7,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJJXNy3b0OlR4RAs9DKyh_7CU",
+  "categories": [
+    "Courier service",
+    "Freight forwarding service",
+    "Import export company",
+    "Shipping company"
+  ],
+  "fid": "0x1e950ebddd727325:0x25ec7f282b43cf02",
+  "cid": "2732698884408332034",
+  "reviewsCount": 236,
+  "imagesCount": 13,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:37.140Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=MDS%20Collivery.net&query_place_id=ChIJJXNy3b0OlR4RAs9DKyh_7CU",
+  "searchPageUrl": "https://www.google.com/maps/search/Pickup%20Services/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "Pickup Services",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipOBGZodKFiSvKjha1ocVHWpjPSGt4Gy_krq1b8=w408-h365-k-no",
+  "kgmid": "/g/1td2qnw0"
+},
+{
+  "rank": 6,
+  "title": "Delivery Xtreme Carlton",
+  "price": null,
+  "categoryName": "Delivery service",
+  "address": "Howard House, 207 Main St, City and Suburban, Johannesburg, 2000, South Africa",
+  "neighborhood": "City and Suburban",
+  "street": "Howard House, 207 Main St",
+  "city": "Johannesburg",
+  "postalCode": "2000",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 11 833 2121",
+  "phoneUnformatted": "+27118332121",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2051767,
+    "lng": 28.0541906
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJIStNyaEOlR4R60WGgx5hPmg",
+  "categories": [
+    "Delivery service",
+    "Delivery Restaurant"
+  ],
+  "fid": "0x1e950ea1c94d2b21:0x683e611e838645eb",
+  "cid": "7511548012184094187",
+  "reviewsCount": 0,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:37.140Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "8 AM to 2 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Delivery": true
+      },
+      {
+        "Takeout": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Delivery%20Xtreme%20Carlton&query_place_id=ChIJIStNyaEOlR4R60WGgx5hPmg",
+  "searchPageUrl": "https://www.google.com/maps/search/Pickup%20Services/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "Pickup Services",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vJL51uukqxsZYSt9EWHsiw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=359.5585&pitch=0&thumbfov=100",
+  "kgmid": "/g/119tbn9by"
+},
+{
+  "rank": 7,
+  "title": "Agape Catering & General Services",
+  "price": null,
+  "categoryName": "Bakery",
+  "address": "Jules St, Jeppestown, Johannesburg, 2001, South Africa",
+  "neighborhood": "Jeppestown",
+  "street": "Jules St",
+  "city": "Johannesburg",
+  "postalCode": "2001",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 61 030 6243",
+  "phoneUnformatted": "+27610306243",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2049824,
+    "lng": 28.0851281
+  },
+  "totalScore": 3,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ4YmOaGwOlR4RNJ4DJLBy2jE",
+  "categories": [
+    "Bakery",
+    "Caterer",
+    "Takeout Restaurant"
+  ],
+  "fid": "0x1e950e6c688e89e1:0x31da72b024039e34",
+  "cid": "3592309753625419316",
+  "reviewsCount": 2,
+  "imagesCount": 9,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:37.141Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Takeout": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Agape%20Catering%20%26%20General%20Services&query_place_id=ChIJ4YmOaGwOlR4RNJ4DJLBy2jE",
+  "searchPageUrl": "https://www.google.com/maps/search/Pickup%20Services/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "Pickup Services",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFdDbqgMQdr2zT6sM4rDdXWXLV4qqP2lwsldW-qONfYcA4kEs-MlLg8ogpt2XANVqa5Na53V4WnS9t1WlYkFuoD5_OpqZdo4cq3wzdKJrH__hTaHwk9QzeowdhYKuse5wPCDINLlkfcE_slO8vFgj5ivNaAXGishGQn1Did8AYkfj1dszSip1x8vqdF8Ptj8RCXirs=w408-h306-k-no",
+  "kgmid": "/g/11b7jf223r"
+},
+{
+  "rank": 8,
+  "title": "special couriers",
+  "price": null,
+  "categoryName": "Courier service",
+  "address": "12 Kruis St, Marshalltown, Johannesburg, 2001, South Africa",
+  "neighborhood": "Marshalltown",
+  "street": "12 Kruis St",
+  "city": "Johannesburg",
+  "postalCode": "2001",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 11 338 6021",
+  "phoneUnformatted": "+27113386021",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2086576,
+    "lng": 28.0463178
+  },
+  "totalScore": 4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJqfI53pkOlR4Rf5_jgUJ6hLc",
+  "categories": [
+    "Courier service"
+  ],
+  "fid": "0x1e950e99de39f2a9:0xb7847a4281e39f7f",
+  "cid": "13223828831932227455",
+  "reviewsCount": 4,
+  "imagesCount": 4,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:37.141Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "7 AM to 6 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "7 AM to 6 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "7 AM to 6 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "7 AM to 6 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "7 AM to 5:30 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "8 AM to 2 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Onsite services": true
+      },
+      {
+        "Online appointments": false
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Planning": [
+      {
+        "Appointment required": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=special%20couriers&query_place_id=ChIJqfI53pkOlR4Rf5_jgUJ6hLc",
+  "searchPageUrl": "https://www.google.com/maps/search/Pickup%20Services/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "Pickup Services",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipO9A-3fla_7B8k3W6F1dcC0pnnLExX9sSPLXHhe=w408-h544-k-no",
+  "kgmid": "/g/11h0bwhxz8"
+},
+{
+  "rank": 9,
+  "title": "Takealot Pick Up Point",
+  "price": null,
+  "categoryName": "E-commerce service",
+  "address": "3, First Place, Kerk &Simmonds St, Johannesburg, 2000, South Africa",
+  "neighborhood": "Johannesburg",
+  "street": "3, First Place, Kerk &Simmonds St",
+  "city": "Johannesburg",
+  "postalCode": "2000",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://www.takealot.com/?utm_source=google&utm_medium=organic&utm_content=gp-fnb-bank-city-pickup-point&utm_campaign=gmb",
+  "phone": "+27 87 362 8000",
+  "phoneUnformatted": "+27873628000",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2033605,
+    "lng": 28.0395489
+  },
+  "totalScore": 3.7,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJheqbavUPlR4RaolaH5W5Rmk",
+  "categories": [
+    "E-commerce service",
+    "Distribution service",
+    "Package locker",
+    "Warehouse"
+  ],
+  "fid": "0x1e950ff56a9bea85:0x6946b9951f5a896a",
+  "cid": "7585954672479471978",
+  "reviewsCount": 52,
+  "imagesCount": 3,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:37.141Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      },
+      {
+        "Wheelchair accessible seating": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Takealot%20Pick%20Up%20Point&query_place_id=ChIJheqbavUPlR4RaolaH5W5Rmk",
+  "searchPageUrl": "https://www.google.com/maps/search/Pickup%20Services/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "Pickup Services",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPiujVSQSBWdAuPoNyzqeN31VknJhz3cnyp3_zc=w502-h240-k-no",
+  "kgmid": "/g/11j3848_m8"
+},
+{
+  "rank": 1,
+  "title": "SAVE A DYING SOUL INTERNATIONAL FOUNDATION",
+  "price": null,
+  "categoryName": "Non-profit organization",
+  "address": "Off 73, 17 Withycombe St, Booysens Rd, Booysens, Johannesburg, 2091, South Africa",
+  "neighborhood": "Booysens",
+  "street": "Off 73, 17 Withycombe St, Booysens Rd",
+  "city": "Johannesburg",
+  "postalCode": "2091",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://sadsif.org/",
+  "phone": "+27 11 022 9497",
+  "phoneUnformatted": "+27110229497",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2295397,
+    "lng": 28.0275813
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJd05DIc8OlR4R0oC9WTZ0ucQ",
+  "categories": [
+    "Non-profit organization",
+    "Church",
+    "Foundation"
+  ],
+  "fid": "0x1e950ecf21434e77:0xc4b9743659bd80d2",
+  "cid": "14175489078907994322",
+  "reviewsCount": 2,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:39.916Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=SAVE%20A%20DYING%20SOUL%20INTERNATIONAL%20FOUNDATION&query_place_id=ChIJd05DIc8OlR4R0oC9WTZ0ucQ",
+  "searchPageUrl": "https://www.google.com/maps/search/donation/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "donation",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=I2LufODMxZKlLenqgh3D8Q&cb_client=search.gws-prod.gps&w=408&h=240&yaw=247.47192&pitch=0&thumbfov=100",
+  "kgmid": "/g/11h008s48h"
+},
+{
+  "rank": 2,
+  "title": "Remar Christian Centre Charity Shop",
+  "price": null,
+  "categoryName": "Thrift store",
+  "address": "48 Turf Club St, Turffontein, Johannesburg, 2190, South Africa",
+  "neighborhood": "Turffontein",
+  "street": "48 Turf Club St",
+  "city": "Johannesburg",
+  "postalCode": "2190",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://comarochronicle.co.za/142061/remar-on-a-mission-to-help-the-excluded-people/",
+  "phone": "+27 11 435 1725",
+  "phoneUnformatted": "+27114351725",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2391319,
+    "lng": 28.032598
+  },
+  "totalScore": 3.7,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJn6c_htkOlR4R87uU2s4z2cI",
+  "categories": [
+    "Thrift store",
+    "Clothing store",
+    "Electrical supply store",
+    "Furniture store",
+    "General store",
+    "Variety store"
+  ],
+  "fid": "0x1e950ed9863fa79f:0xc2d933ceda94bbf3",
+  "cid": "14040310276827692019",
+  "reviewsCount": 7,
+  "imagesCount": 5,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:39.916Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "In-store shopping": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Planning": [
+      {
+        "Quick visit": true
+      }
+    ],
+    "Recycling": [
+      {
+        "Clothing": true
+      }
+    ],
+    "Payments": [
+      {
+        "Cash-only": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Remar%20Christian%20Centre%20Charity%20Shop&query_place_id=ChIJn6c_htkOlR4R87uU2s4z2cI",
+  "searchPageUrl": "https://www.google.com/maps/search/donation/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "donation",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFfxvYQP32DRAxRMIC1q15UyFsHkELjR47KHeUdz0K3PAxIk3d6yZHwkb0V01RFwFrI9l6cjjdL0vX7kndk2CTWW-f3G1SoUj-TGfUAXxNUSLjURlPGGFoQ6cIvoT6tEVjliSdGxRsR5yicYQaloUeVcSaAKsYb8g6PrNro7ytpTDnZvDfAr5SNi1itzH7p2c4i-Ts=w408-h306-k-no",
+  "kgmid": "/g/11b7jdzytr"
+},
+{
+  "rank": 3,
+  "title": "Wings of Mercy Foundation",
+  "price": null,
+  "categoryName": "Foundation",
+  "address": "92 11th Ave, Mayfair, Johannesburg, 2092, South Africa",
+  "neighborhood": "Mayfair",
+  "street": "92 11th Ave",
+  "city": "Johannesburg",
+  "postalCode": "2092",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://wingsofmercy.org.za/",
+  "phone": "+27 11 837 7175",
+  "phoneUnformatted": "+27118377175",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2082206,
+    "lng": 28.0173908
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJIYqYwFQJlR4R-jqi-nfWTz8",
+  "categories": [
+    "Foundation"
+  ],
+  "fid": "0x1e950954c0988a21:0x3f4fd677faa23afa",
+  "cid": "4562100758343990010",
+  "reviewsCount": 3,
+  "imagesCount": 4,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:39.916Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Wings%20of%20Mercy%20Foundation&query_place_id=ChIJIYqYwFQJlR4R-jqi-nfWTz8",
+  "searchPageUrl": "https://www.google.com/maps/search/donation/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "donation",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPpwdlcbt3LFLZyunXEUcAp_ZIi9qyZcMI9ZFaw=w408-h261-k-no",
+  "kgmid": "/g/11h04nw818"
+},
+{
+  "rank": 5,
+  "title": "Fordsburg Sports Club Musallah Donation Center",
+  "price": null,
+  "categoryName": "Donations center",
+  "address": "13 Commercial Rd, Fordsburg, Johannesburg, 2033, South Africa",
+  "neighborhood": "Fordsburg",
+  "street": "13 Commercial Rd",
+  "city": "Johannesburg",
+  "postalCode": "2033",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 82 377 9688",
+  "phoneUnformatted": "+27823779688",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2048684,
+    "lng": 28.0215606
+  },
+  "totalScore": 3.8,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJL6l8X6oOlR4RfzBbGWAQn3g",
+  "categories": [
+    "Donations center"
+  ],
+  "fid": "0x1e950eaa5f7ca92f:0x789f1060195b307f",
+  "cid": "8691683810776658047",
+  "reviewsCount": 4,
+  "imagesCount": 5,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:39.916Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "1 to 11:30 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "1 to 11:30 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "1 to 11:30 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "1 to 11:30 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "1 to 11:30 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "1 to 11:30 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "1 to 11:30 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Fordsburg%20Sports%20Club%20Musallah%20Donation%20Center&query_place_id=ChIJL6l8X6oOlR4RfzBbGWAQn3g",
+  "searchPageUrl": "https://www.google.com/maps/search/donation/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "donation",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipOfMzJw-g79X09hmCHdnqACjtq4NfpGiqJHbQOh=w426-h240-k-no",
+  "kgmid": "/g/12hqn797s"
+},
+{
+  "rank": 6,
+  "title": "Hellen Working in the Community Charity Shop",
+  "price": null,
+  "categoryName": "Used clothing store",
+  "address": "Hay St, Turffontein, Johannesburg South, 2190, South Africa",
+  "neighborhood": "Turffontein",
+  "street": "Hay St",
+  "city": "Johannesburg South",
+  "postalCode": "2190",
+  "state": null,
+  "countryCode": "ZA",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2422299,
+    "lng": 28.0385486
+  },
+  "totalScore": 4.1,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ2RtKVkIPlR4RwP2q8XEpyns",
+  "categories": [
+    "Used clothing store"
+  ],
+  "fid": "0x1e950f42564a1bd9:0x7bca2971f1aafdc0",
+  "cid": "8919987581323247040",
+  "reviewsCount": 14,
+  "imagesCount": 51,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:39.916Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 4 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 4 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 4 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 4 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 4 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "9 AM to 1 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Planning": [
+      {
+        "Quick visit": true
+      }
+    ],
+    "Recycling": [
+      {
+        "Clothing": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Hellen%20Working%20in%20the%20Community%20Charity%20Shop&query_place_id=ChIJ2RtKVkIPlR4RwP2q8XEpyns",
+  "searchPageUrl": "https://www.google.com/maps/search/donation/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "donation",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipNJXhCt9-AY_zSHtzWXG2L4QnLAOfauwAetwDx0=w408-h544-k-no",
+  "kgmid": "/g/11j7d_4lss"
+},
+{
+  "rank": 7,
+  "title": "Heart Of Cornerstone",
+  "price": null,
+  "categoryName": "Thrift store",
+  "address": "Cornerstone Park, 19 W Turffontein Rd, West Turffontein, Johannesburg, 2190, South Africa",
+  "neighborhood": "West Turffontein",
+  "street": "Cornerstone Park, 19 W Turffontein Rd",
+  "city": "Johannesburg",
+  "postalCode": "2190",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 83 589 5475",
+  "phoneUnformatted": "+27835895475",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2398938,
+    "lng": 28.0283784
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJa7PMjSYPlR4RwSSOKUeVYw0",
+  "categories": [
+    "Thrift store",
+    "Charity",
+    "Non-profit organization"
+  ],
+  "fid": "0x1e950f268dccb36b:0xd639547298e24c1",
+  "cid": "964778878059816129",
+  "reviewsCount": 3,
+  "imagesCount": 8,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:39.916Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 4:30 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 4:30 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 4:30 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 4:30 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 4:30 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "9 AM to 12 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Planning": [
+      {
+        "Quick visit": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Heart%20Of%20Cornerstone&query_place_id=ChIJa7PMjSYPlR4RwSSOKUeVYw0",
+  "searchPageUrl": "https://www.google.com/maps/search/donation/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "donation",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipNVexTDVMSbxlcoqDyYSPygMIe9ZZW_7bpNO5Wv=w480-h240-k-no",
+  "kgmid": "/g/11s2m0wns7"
+},
+{
+  "rank": 8,
+  "title": "bags of blessings",
+  "price": null,
+  "categoryName": "Association / Organization",
+  "address": "34 Banton Rd, Southdale, Johannesburg, 2091, South Africa",
+  "neighborhood": "Southdale",
+  "street": "34 Banton Rd",
+  "city": "Johannesburg",
+  "postalCode": "2091",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://bagsofblessings.co.za/",
+  "phone": "+27 74 125 7475",
+  "phoneUnformatted": "+27741257475",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2394595,
+    "lng": 28.0191877
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJtcYbL9MOlR4Rr7gZoDssSTw",
+  "categories": [
+    "Association / Organization"
+  ],
+  "fid": "0x1e950ed32f1bc6b5:0x3c492c3ba019b8af",
+  "cid": "4344051950176286895",
+  "reviewsCount": 0,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:39.916Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=bags%20of%20blessings&query_place_id=ChIJtcYbL9MOlR4Rr7gZoDssSTw",
+  "searchPageUrl": "https://www.google.com/maps/search/donation/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "donation",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=EV_htWgGxdhWz2EyPe6OdA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=125.7462&pitch=0&thumbfov=100",
+  "kgmid": "/g/11vhvnhn9f"
+},
+{
+  "rank": 10,
+  "title": "THE FLAMES OF HOPE FOUNDATION",
+  "price": null,
+  "categoryName": "Foundation",
+  "address": "160 Bertha St, Kenilworth, Johannesburg South, 2190, South Africa",
+  "neighborhood": "Kenilworth",
+  "street": "160 Bertha St",
+  "city": "Johannesburg South",
+  "postalCode": "2190",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://theflamesofhopefoundation.org.za/",
+  "phone": "+27 10 634 2307",
+  "phoneUnformatted": "+27106342307",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2434644,
+    "lng": 28.0473986
+  },
+  "totalScore": 4.3,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJAYjXvCQMlR4RxbUOululCrM",
+  "categories": [
+    "Foundation"
+  ],
+  "fid": "0x1e950c24bcd78801:0xb30aa55bba0eb5c5",
+  "cid": "12901305895938340293",
+  "reviewsCount": 3,
+  "imagesCount": 3,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:39.916Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=THE%20FLAMES%20OF%20HOPE%20FOUNDATION&query_place_id=ChIJAYjXvCQMlR4RxbUOululCrM",
+  "searchPageUrl": "https://www.google.com/maps/search/donation/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "donation",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipO85VIbnhOSMyEri-CTlXEh-hNbNvGJ804kqRc=w408-h306-k-no",
+  "kgmid": "/g/11tcp0jxwp"
+},
+{
+  "rank": 14,
+  "title": "Ray of Hope",
+  "price": null,
+  "categoryName": "Association / Organization",
+  "address": "160 Bertha St, Kenilworth, Johannesburg, 2140, South Africa",
+  "neighborhood": "Kenilworth",
+  "street": "160 Bertha St",
+  "city": "Johannesburg",
+  "postalCode": "2140",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://rayofhope.org.za/",
+  "phone": "+27 73 793 5045",
+  "phoneUnformatted": "+27737935045",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2434644,
+    "lng": 28.0473986
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJY2uWex4PlR4Rqu-S4h_V01U",
+  "categories": [
+    "Association / Organization"
+  ],
+  "fid": "0x1e950f1e7b966b63:0x55d3d51fe292efaa",
+  "cid": "6184521046231805866",
+  "reviewsCount": 0,
+  "imagesCount": 7,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:39.916Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Ray%20of%20Hope&query_place_id=ChIJY2uWex4PlR4Rqu-S4h_V01U",
+  "searchPageUrl": "https://www.google.com/maps/search/donation/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "donation",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipM_vR8ore2rj0jlePhtBzfmHWBBCjBr2I9CZpT6=w408-h306-k-no",
+  "kgmid": "/g/11fnxtqzjq"
+},
+{
+  "rank": 15,
+  "title": "THE SALVATION ARMY SOUTH RAND COMMUNITY CHURCH",
+  "price": "$",
+  "categoryName": "Church",
+  "address": "Fraser St, Rosettenville, Johannesburg, 2000, South Africa",
+  "neighborhood": "Rosettenville",
+  "street": "Fraser St",
+  "city": "Johannesburg",
+  "postalCode": "2000",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://www.salvationarmy.org.za/",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2443768,
+    "lng": 28.0495809
+  },
+  "totalScore": 4.4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJrQIXRxwPlR4RNjKbbBxoDcI",
+  "categories": [
+    "Church"
+  ],
+  "fid": "0x1e950f1c471702ad:0xc20d681c6c9b3236",
+  "cid": "13982946889345741366",
+  "reviewsCount": 26,
+  "imagesCount": 17,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:39.917Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=THE%20SALVATION%20ARMY%20SOUTH%20RAND%20COMMUNITY%20CHURCH&query_place_id=ChIJrQIXRxwPlR4RNjKbbBxoDcI",
+  "searchPageUrl": "https://www.google.com/maps/search/donation/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "donation",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPJBy78HoMByLO0ktHGfMN9non7ocKy00kA83Rx=w408-h544-k-no",
+  "kgmid": "/g/11bvwdlf11"
+},
+{
+  "rank": 16,
+  "title": "Ehsaas Welfare Foundation",
+  "price": null,
+  "categoryName": "Non-profit organization",
+  "address": "15 Fountain Rd, Fordsburg, Johannesburg, 2033, South Africa",
+  "neighborhood": "Fordsburg",
+  "street": "15 Fountain Rd",
+  "city": "Johannesburg",
+  "postalCode": "2033",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://www.ehsaas.org.za/",
+  "phone": "+27 78 678 6028",
+  "phoneUnformatted": "+27786786028",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2060662,
+    "lng": 28.0213383
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJdXiykvwPlR4RcDYrxOgJhdY",
+  "categories": [
+    "Non-profit organization"
+  ],
+  "fid": "0x1e950ffc92b27875:0xd68509e8c42b3670",
+  "cid": "15457772191347324528",
+  "reviewsCount": 1,
+  "imagesCount": 7,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:39.917Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Ehsaas%20Welfare%20Foundation&query_place_id=ChIJdXiykvwPlR4RcDYrxOgJhdY",
+  "searchPageUrl": "https://www.google.com/maps/search/donation/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "donation",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMOl_IGjOitzdy3oYT2RHsUcfrmM7eeb5PtXd-H=w408-h906-k-no",
+  "kgmid": "/g/11sjr21sm_"
+},
+{
+  "rank": 17,
+  "title": "One Moment Foundation",
+  "price": null,
+  "categoryName": "Foundation",
+  "address": "66 Anderson St, Marshalltown, Johannesburg, 2107, South Africa",
+  "neighborhood": "Marshalltown",
+  "street": "66 Anderson St",
+  "city": "Johannesburg",
+  "postalCode": "2107",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://onemomentfoundation.org/",
+  "phone": "+27 11 492 1474",
+  "phoneUnformatted": "+27114921474",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.20825,
+    "lng": 28.04195
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJkyU5nqIOlR4RMXVAO_ans5Y",
+  "categories": [
+    "Foundation"
+  ],
+  "fid": "0x1e950ea29e392593:0x96b3a7f63b407531",
+  "cid": "10859207802518271281",
+  "reviewsCount": 1,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:39.917Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=One%20Moment%20Foundation&query_place_id=ChIJkyU5nqIOlR4RMXVAO_ans5Y",
+  "searchPageUrl": "https://www.google.com/maps/search/donation/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "donation",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Kw4wvXIKtYNPjlYBy88ZuA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=172.87416&pitch=0&thumbfov=100",
+  "kgmid": "/g/11fsxjy73c"
+},
+{
+  "rank": 1,
+  "title": "WastePlan Johannesburg",
+  "price": null,
+  "categoryName": "Waste management service",
+  "address": "5 Dwerg St, Denver, Johannesburg, 2094, South Africa",
+  "neighborhood": "Denver",
+  "street": "5 Dwerg St",
+  "city": "Johannesburg",
+  "postalCode": "2094",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://www.wasteplan.co.za/",
+  "phone": "+27 11 615 7766",
+  "phoneUnformatted": "+27116157766",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.211704,
+    "lng": 28.0929467
+  },
+  "totalScore": 3.7,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJNd9eNj4OlR4R3MGwz65tegM",
+  "categories": [
+    "Waste management service"
+  ],
+  "fid": "0x1e950e3e365edf35:0x37a6daecfb0c1dc",
+  "cid": "250633326848688604",
+  "reviewsCount": 55,
+  "imagesCount": 20,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:40.360Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "7 AM to 4 AM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "7 AM to 4 AM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "7 AM to 4 AM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "7 AM to 4 AM"
+    },
+    {
+      "day": "Friday",
+      "hours": "7 AM to 4 AM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Onsite services": true
+      },
+      {
+        "Online estimates": false
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=WastePlan%20Johannesburg&query_place_id=ChIJNd9eNj4OlR4R3MGwz65tegM",
+  "searchPageUrl": "https://www.google.com/maps/search/Recycling%20Facilities/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "Recycling Facilities",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMsMhh5F4Sn_t4SGsU1Vl4cHyNml_Hwkj9UhMii=w408-h306-k-no",
+  "kgmid": "/g/11ck0xwvt6"
+},
+{
+  "rank": 19,
+  "title": "KMG Environmental Solutions Services",
+  "price": null,
+  "categoryName": "Environmental consultant",
+  "address": "Block B, Metropolitan Park, 8 Hillside Rd, Parktown, Johannesburg, 2196, South Africa",
+  "neighborhood": "Parktown",
+  "street": "Block B, Metropolitan Park, 8 Hillside Rd",
+  "city": "Johannesburg",
+  "postalCode": "2196",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://www.kmgenviro.co.za/",
+  "phone": "+27 72 546 3191",
+  "phoneUnformatted": "+27725463191",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.184131,
+    "lng": 28.0402214
+  },
+  "totalScore": 4.7,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJr1780PU9lR4RsOuFep1CHKs",
+  "categories": [
+    "Environmental consultant"
+  ],
+  "fid": "0x1e953df5d0fc5eaf:0xab1c429d7a85ebb0",
+  "cid": "12329803123966471088",
+  "reviewsCount": 15,
+  "imagesCount": 159,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:40.360Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Onsite services": true
+      },
+      {
+        "Online appointments": false
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=KMG%20Environmental%20Solutions%20Services&query_place_id=ChIJr1780PU9lR4RsOuFep1CHKs",
+  "searchPageUrl": "https://www.google.com/maps/search/Recycling%20Facilities/@-26.212712491265172,28.075519938251393,16z?hl=en",
+  "searchString": "Recycling Facilities",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipOqiqvpsGYtqW3LPOKhgrkFmpxDBP4IfFS4X5pb=w408-h353-k-no",
+  "kgmid": "/g/11q7_9048q"
+},
+{
+  "rank": 6,
+  "title": "Maloti Catering Services 123 CC",
+  "price": null,
+  "categoryName": "Caterer",
+  "address": "No. 33 Booysens Road, Corner Fraser St, Booysens, 2016, South Africa",
+  "neighborhood": "Booysens",
+  "street": "No. 33 Booysens Road, Corner Fraser St",
+  "city": "Johannesburg",
+  "postalCode": "2016",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://maloticatering.co.za/",
+  "phone": "+27 11 933 4017",
+  "phoneUnformatted": "+27119334017",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2321165,
+    "lng": 28.0238018
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJAaL3K8wOlR4R-_KMiLcnzuY",
+  "categories": [
+    "Caterer"
+  ],
+  "fid": "0x1e950ecc2bf7a201:0xe6ce27b7888cf2fb",
+  "cid": "16631274143149257467",
+  "reviewsCount": 1,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:44.733Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "9 AM to 3 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Takeout": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Maloti%20Catering%20Services%20123%20CC&query_place_id=ChIJAaL3K8wOlR4R-_KMiLcnzuY",
+  "searchPageUrl": "https://www.google.com/maps/search/Pickup%20Services/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "Pickup Services",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MfzYZCRgB7jnM7W4QUPp5w&cb_client=search.gws-prod.gps&w=408&h=240&yaw=277.45526&pitch=0&thumbfov=100",
+  "kgmid": "/g/11gy1mygtl"
+},
+{
+  "rank": 7,
+  "title": "Blu Mobility | Bakkie for hire | Removal truck hire | Johannesburg",
+  "price": null,
+  "categoryName": "Delivery service",
+  "address": "193 Smit St, Wanderers View Estate, Johannesburg, 2000, South Africa",
+  "neighborhood": "Wanderers View Estate",
+  "street": "193 Smit St",
+  "city": "Johannesburg",
+  "postalCode": "2000",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 62 619 7635",
+  "phoneUnformatted": "+27626197635",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.1946515,
+    "lng": 28.038348
+  },
+  "totalScore": 4.9,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ8xU6JfUNlR4R-_1JzqY7LdI",
+  "categories": [
+    "Delivery service",
+    "Transportation service",
+    "Moving and storage service"
+  ],
+  "fid": "0x1e950df5253a15f3:0xd22d3ba6ce49fdfb",
+  "cid": "15144826709528411643",
+  "reviewsCount": 35,
+  "imagesCount": 93,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:44.733Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Thursday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Friday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Open 24 hours"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Blu%20Mobility%20%7C%20Bakkie%20for%20hire%20%7C%20Removal%20truck%20hire%20%7C%20Johannesburg&query_place_id=ChIJ8xU6JfUNlR4R-_1JzqY7LdI",
+  "searchPageUrl": "https://www.google.com/maps/search/Pickup%20Services/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "Pickup Services",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMz1PhWmussQcmRYj4CHzwaAYHn8gCgLtHtd9eq=w408-h408-k-no",
+  "kgmid": "/g/11p66czygl"
+},
+{
+  "rank": 10,
+  "title": "Mashate Logistics",
+  "price": null,
+  "categoryName": "Mover",
+  "address": "3477 mkulu street, Braamfischer, Johannesburg, 2001, South Africa",
+  "neighborhood": "Braamfischer",
+  "street": "3477 mkulu street",
+  "city": "Johannesburg",
+  "postalCode": "2001",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 73 040 8021",
+  "phoneUnformatted": "+27730408021",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2077271,
+    "lng": 28.0391009
+  },
+  "totalScore": 4.7,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ22LGyvIPlR4RzoJPM_6whnA",
+  "categories": [
+    "Mover"
+  ],
+  "fid": "0x1e950ff2cac662db:0x7086b0fe334f82ce",
+  "cid": "8108362784956187342",
+  "reviewsCount": 20,
+  "imagesCount": 52,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:44.733Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Thursday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Friday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Open 24 hours"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Mashate%20Logistics&query_place_id=ChIJ22LGyvIPlR4RzoJPM_6whnA",
+  "searchPageUrl": "https://www.google.com/maps/search/Pickup%20Services/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "Pickup Services",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMS_Xbo8JOdJAsbp10KXo3wBHZhcPZUye9l10tM=w426-h240-k-no",
+  "kgmid": "/g/11v_86dh94"
+},
+{
+  "rank": 11,
+  "title": "MB Deliveries",
+  "price": null,
+  "categoryName": "Delivery service",
+  "address": "287 Lilian Ngoyi St, Newtown, Johannesburg, 2001, South Africa",
+  "neighborhood": "Newtown",
+  "street": "287 Lilian Ngoyi St",
+  "city": "Johannesburg",
+  "postalCode": "2001",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 61 518 0048",
+  "phoneUnformatted": "+27615180048",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.1997163,
+    "lng": 28.0509017
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJt_1BAJ0OlR4RDs4ZDvF26s4",
+  "categories": [
+    "Delivery service"
+  ],
+  "fid": "0x1e950e9d0041fdb7:0xceea76f10e19ce0e",
+  "cid": "14909860294059216398",
+  "reviewsCount": 1,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:44.734Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=MB%20Deliveries&query_place_id=ChIJt_1BAJ0OlR4RDs4ZDvF26s4",
+  "searchPageUrl": "https://www.google.com/maps/search/Pickup%20Services/@-26.228137473795524,28.02392406174862,16z?hl=en",
+  "searchString": "Pickup Services",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=LfFssYIswUdJnUD9_Q7JAg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=1.2476923&pitch=0&thumbfov=100",
+  "kgmid": "/g/11nxt98nws"
+},
+{
+  "rank": 18,
+  "title": "Clean City SA NPC",
+  "price": null,
+  "categoryName": "Waste management service",
+  "address": "21st Floor, 221 Smit St, Braamfontein, Johannesburg, 2001, South Africa",
+  "neighborhood": "Braamfontein",
+  "street": "21st Floor, 221 Smit St",
+  "city": "Johannesburg",
+  "postalCode": "2001",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://cleancity.org.za/",
+  "phone": "+27 10 005 4598",
+  "phoneUnformatted": "+27100054598",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.19441,
+    "lng": 28.04106
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ3USUb9N1lR4RMYFaDOQ4vHA",
+  "categories": [
+    "Waste management service",
+    "Environmental organization",
+    "Association / Organization"
+  ],
+  "fid": "0x1e9575d36f9444dd:0x70bc38e40c5a8131",
+  "cid": "8123430379980489009",
+  "reviewsCount": 0,
+  "imagesCount": 10,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:46.562Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Clean%20City%20SA%20NPC&query_place_id=ChIJ3USUb9N1lR4RMYFaDOQ4vHA",
+  "searchPageUrl": "https://www.google.com/maps/search/trash/@-26.212712491265172,28.02392406174862,16z?hl=en",
+  "searchString": "trash",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMcA1zwNcGViQ_rj7eZw9LORKSQg0VGxfyNaeZ3=w408-h408-k-no",
+  "kgmid": "/g/11n22g745k"
+},
+{
+  "rank": 21,
+  "title": "JUMBO Crown Mines",
+  "price": null,
+  "categoryName": "Department store",
+  "address": "Crownwood Rd, Crown Mines, Johannesburg, 2025, South Africa",
+  "neighborhood": "Crown Mines",
+  "street": "Crownwood Rd",
+  "city": "Johannesburg",
+  "postalCode": "2025",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "http://www.jumbo.co.za/?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP",
+  "phone": "+27 11 839 4440",
+  "phoneUnformatted": "+27118394440",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2163893,
+    "lng": 28.0109582
+  },
+  "totalScore": 4.2,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJram7Hk4JlR4Rovxv1U08WMU",
+  "categories": [
+    "Department store",
+    "Convenience store",
+    "Grocery store",
+    "Supermarket"
+  ],
+  "fid": "0x1e95094e1ebba9ad:0xc5583c4dd56ffca2",
+  "cid": "14220182128413375650",
+  "reviewsCount": 159,
+  "reviewsDistribution": {
+    "oneStar": 8,
+    "twoStar": 5,
+    "threeStar": 20,
+    "fourStar": 43,
+    "fiveStar": 83
+  },
+  "imagesCount": 74,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:47.571Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "8 AM to 1 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "8 AM to 1 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Delivery": true
+      },
+      {
+        "In-store pickup": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Planning": [
+      {
+        "Quick visit": true
+      }
+    ],
+    "Recycling": [
+      {
+        "Ink cartridges": true
+      }
+    ],
+    "Payments": [
+      {
+        "Credit cards": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=JUMBO%20Crown%20Mines&query_place_id=ChIJram7Hk4JlR4Rovxv1U08WMU",
+  "searchPageUrl": "https://www.google.com/maps/search/trash/@-26.212712491265172,28.02392406174862,16z?hl=en",
+  "searchString": "trash",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipOAbPEffSqY_UUpH0lzNqYbw4scCrvxK7klCYhq=w533-h240-k-no",
+  "kgmid": "/g/11c764q1w4"
+},
+{
+  "rank": 22,
+  "title": "Shoprite Mayfair",
+  "description": "Supermarket chain with brand-name & house-label groceries, plus a bakery & a deli.",
+  "price": "$$",
+  "categoryName": "Grocery store",
+  "address": "1804 Albertina Sisulu Rd, Mayfair, Johannesburg, 2092, South Africa",
+  "neighborhood": "Mayfair",
+  "street": "1804 Albertina Sisulu Rd",
+  "city": "Johannesburg",
+  "postalCode": "2092",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://www.shoprite.co.za/",
+  "phone": "+27 11 381 1710",
+  "phoneUnformatted": "+27113811710",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2055615,
+    "lng": 28.0181445
+  },
+  "totalScore": 3.8,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ-8c7NlUJlR4R8YursusM9wY",
+  "categories": [
+    "Grocery store"
+  ],
+  "fid": "0x1e950955363bc7fb:0x6f70cebb2ab8bf1",
+  "cid": "501884089929534449",
+  "reviewsCount": 1079,
+  "reviewsDistribution": {
+    "oneStar": 115,
+    "twoStar": 90,
+    "threeStar": 211,
+    "fourStar": 175,
+    "fiveStar": 488
+  },
+  "imagesCount": 71,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:47.571Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "7 AM to 7 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "7 AM to 7 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "7 AM to 7 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "7 AM to 7 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "7 AM to 7 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "7 AM to 5 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "7 AM to 2 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "In-store shopping": true
+      },
+      {
+        "Delivery": false
+      },
+      {
+        "Same-day delivery": false
+      }
+    ],
+    "Highlights": [
+      {
+        "Great produce": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Offerings": [
+      {
+        "Food": true
+      }
+    ],
+    "Planning": [
+      {
+        "Quick visit": true
+      }
+    ],
+    "Payments": [
+      {
+        "Credit cards": true
+      },
+      {
+        "Debit cards": true
+      },
+      {
+        "NFC mobile payments": true
+      },
+      {
+        "Credit cards": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Shoprite%20Mayfair&query_place_id=ChIJ-8c7NlUJlR4R8YursusM9wY",
+  "searchPageUrl": "https://www.google.com/maps/search/trash/@-26.212712491265172,28.02392406174862,16z?hl=en",
+  "searchString": "trash",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEJV85GiPF4GQh9RdcBfTWqLNHQmKzbjGgwHTeUOHGcbRCo-a_p3A4tRW2NSi-Ej6cq1HUS6R2bGu-VIYtC-t_FrNG6tbwGHhZiFjt5wUPlmsLcvw1Eiw-nBAiUanD8_O3ir1aHpDk3QnmPEiLZVrMKIINVpR70I7fFPjukkGdrAOxgilgUP9dYXSwvaOD_mVPEOXY=w408-h306-k-no",
+  "kgmid": "/g/1twxnw00"
+},
+{
+  "rank": 21,
+  "title": "SPAR Ghandi Square",
+  "price": "$",
+  "categoryName": "Supermarket",
+  "address": "Eloff St, Marshalltown, Johannesburg, 2107, South Africa",
+  "neighborhood": "Marshalltown",
+  "street": "Eloff St",
+  "city": "Johannesburg",
+  "postalCode": "2107",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://www.spar.co.za/Store-Finder",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2069352,
+    "lng": 28.0440623
+  },
+  "totalScore": 4.1,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJC_m_WZgOlR4R1cVDXZAo6j0",
+  "categories": [
+    "Supermarket",
+    "Food products supplier",
+    "Fruit and vegetable store",
+    "Grocery store"
+  ],
+  "fid": "0x1e950e9859bff90b:0x3dea28905d43c5d5",
+  "cid": "4461422981369021909",
+  "reviewsCount": 1081,
+  "reviewsDistribution": {
+    "oneStar": 82,
+    "twoStar": 59,
+    "threeStar": 161,
+    "fourStar": 198,
+    "fiveStar": 581
+  },
+  "imagesCount": 22,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:51.205Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "6 AM to 10 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "6 AM to 10 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "6 AM to 10 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "6 AM to 10 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "6 AM to 10 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "6 AM to 8 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "6 AM to 8 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "In-store pickup": true
+      },
+      {
+        "In-store shopping": true
+      },
+      {
+        "Onsite services": true
+      },
+      {
+        "Same-day delivery": false
+      }
+    ],
+    "Highlights": [
+      {
+        "Great produce": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Offerings": [
+      {
+        "Food": true
+      },
+      {
+        "Prepared foods": true
+      }
+    ],
+    "Planning": [
+      {
+        "Quick visit": true
+      }
+    ],
+    "Payments": [
+      {
+        "Cash-only": true
+      },
+      {
+        "Debit cards": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=SPAR%20Ghandi%20Square&query_place_id=ChIJC_m_WZgOlR4R1cVDXZAo6j0",
+  "searchPageUrl": "https://www.google.com/maps/search/trash/@-26.212712491265172,28.041122687249544,16z?hl=en",
+  "searchString": "trash",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipNGU_4yCOhXAGiOYdd6jGb2GBrA_-0_H15tW4Sj=w408-h544-k-no",
+  "kgmid": "/g/11ghrc8ykn"
+},
+{
+  "rank": 22,
+  "title": "Main Hardware Cc",
+  "price": null,
+  "categoryName": "Hardware store",
+  "address": "45 Heidelberg Rd, City and Suburban, Johannesburg, 2001, South Africa",
+  "neighborhood": "City and Suburban",
+  "street": "45 Heidelberg Rd",
+  "city": "Johannesburg",
+  "postalCode": "2001",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://www.mainhardware.co.za/wp-login.php",
+  "phone": "+27 11 334 6150",
+  "phoneUnformatted": "+27113346150",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.2114772,
+    "lng": 28.053606
+  },
+  "totalScore": 4.4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJOTab7ZEOlR4RNTZVbHvYhjQ",
+  "categories": [
+    "Hardware store",
+    "Building materials store",
+    "Electrical supply store",
+    "Plumbing supply store"
+  ],
+  "fid": "0x1e950e91ed9b3639:0x3486d87b6c553635",
+  "cid": "3784950561461581365",
+  "reviewsCount": 197,
+  "reviewsDistribution": {
+    "oneStar": 7,
+    "twoStar": 4,
+    "threeStar": 19,
+    "fourStar": 38,
+    "fiveStar": 129
+  },
+  "imagesCount": 16,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:51.205Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "7:30 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "7:30 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "7:30 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Delivery": true
+      },
+      {
+        "In-store pickup": true
+      },
+      {
+        "Same-day delivery": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Planning": [
+      {
+        "Quick visit": true
+      }
+    ],
+    "Payments": [
+      {
+        "Credit cards": true
+      },
+      {
+        "Debit cards": true
+      },
+      {
+        "NFC mobile payments": true
+      },
+      {
+        "Credit cards": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Main%20Hardware%20Cc&query_place_id=ChIJOTab7ZEOlR4RNTZVbHvYhjQ",
+  "searchPageUrl": "https://www.google.com/maps/search/trash/@-26.212712491265172,28.041122687249544,16z?hl=en",
+  "searchString": "trash",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPsA8KlOV0M81i35HazlKYNI-aS4FJ0HWcNFjfy=w426-h240-k-no",
+  "kgmid": "/g/1tg_11yl"
+},
+{
+  "rank": 23,
+  "title": "Dis-Chem Pharmacy Gandhi Square",
+  "price": null,
+  "categoryName": "Pharmacy",
+  "address": "Renaissance Centre, 122 Main and Eloff St Shop 3, Gandhi Square, Johannesburg, 2001, South Africa",
+  "neighborhood": "Marshalltown",
+  "street": "Renaissance Centre, 122 Main and Eloff St Shop 3, Gandhi Square",
+  "city": "Johannesburg",
+  "postalCode": "2001",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://dischem.co.za/storefinder/207",
+  "phone": "+27 10 612 0786",
+  "phoneUnformatted": "+27106120786",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.206669,
+    "lng": 28.0443622
+  },
+  "totalScore": 3.9,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJQ6aoVpgOlR4REe7JXMfKEg8",
+  "categories": [
+    "Pharmacy",
+    "Drug store",
+    "Health and beauty shop",
+    "Physical therapist",
+    "Wallpaper store"
+  ],
+  "fid": "0x1e950e9856a8a643:0xf12cac75cc9ee11",
+  "cid": "1086153417753751057",
+  "reviewsCount": 127,
+  "reviewsDistribution": {
+    "oneStar": 20,
+    "twoStar": 6,
+    "threeStar": 9,
+    "fourStar": 20,
+    "fiveStar": 72
+  },
+  "imagesCount": 9,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:51.205Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 5:30 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 5:30 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 5:30 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 5:30 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 5:30 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "9 AM to 4 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Delivery": true
+      },
+      {
+        "In-store pickup": true
+      },
+      {
+        "In-store shopping": true
+      },
+      {
+        "Same-day delivery": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Planning": [
+      {
+        "Quick visit": true
+      }
+    ],
+    "Payments": [
+      {
+        "Credit cards": true
+      },
+      {
+        "Credit cards": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Dis-Chem%20Pharmacy%20Gandhi%20Square&query_place_id=ChIJQ6aoVpgOlR4REe7JXMfKEg8",
+  "searchPageUrl": "https://www.google.com/maps/search/trash/@-26.212712491265172,28.041122687249544,16z?hl=en",
+  "searchString": "trash",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMdKgEKUQKeKsHUZFacbpcKyUpUa9o0fGmpbm_m=w408-h306-k-no",
+  "kgmid": "/g/11f3tjq0y5"
+},
+{
+  "rank": 8,
+  "title": "South African National Blood Service - Auckland Park",
+  "price": null,
+  "categoryName": "Blood bank",
+  "address": "Helen Joseph Hospital, Perth Rd, Auckland Park, Johannesburg, 2092, South Africa",
+  "neighborhood": "Auckland Park",
+  "street": "Helen Joseph Hospital, Perth Rd",
+  "city": "Johannesburg",
+  "postalCode": "2092",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 11 489 0774",
+  "phoneUnformatted": "+27114890774",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.1828497,
+    "lng": 28.0130216
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJIc1qV4sLlR4R4LEXR8Q-HZo",
+  "categories": [
+    "Blood bank"
+  ],
+  "fid": "0x1e950b8b576acd21:0x9a1d3ec44717b1e0",
+  "cid": "11105101268892758496",
+  "reviewsCount": 0,
+  "imagesCount": 2,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:54.914Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=South%20African%20National%20Blood%20Service%20-%20Auckland%20Park&query_place_id=ChIJIc1qV4sLlR4R4LEXR8Q-HZo",
+  "searchPageUrl": "https://www.google.com/maps/search/Donation%20Centers/@-26.19728750873482,28.02392406174862,16z?hl=en",
+  "searchString": "Donation Centers",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=n3L5TmLIgPffmxFa4J4wIQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=219.34846&pitch=0&thumbfov=100",
+  "kgmid": "/g/11b5yr1zh1"
+},
+{
+  "rank": 9,
+  "title": "South African National Blood Service - Milpark Hospital",
+  "price": null,
+  "categoryName": "Blood bank",
+  "address": "Suite E, 9 Guild Rd, Parktown, Johannesburg, 2193, South Africa",
+  "neighborhood": "Parktown",
+  "street": "Suite E, 9 Guild Rd",
+  "city": "Johannesburg",
+  "postalCode": "2193",
+  "state": null,
+  "countryCode": "ZA",
+  "phone": "+27 11 482 1911",
+  "phoneUnformatted": "+27114821911",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.180872,
+    "lng": 28.018573
+  },
+  "totalScore": 1,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJM-f6n4oLlR4RPcl4m8Lz1Lc",
+  "categories": [
+    "Blood bank"
+  ],
+  "fid": "0x1e950b8a9ffae733:0xb7d4f3c29b78c93d",
+  "cid": "13246480421161060669",
+  "reviewsCount": 1,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:54.914Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=South%20African%20National%20Blood%20Service%20-%20Milpark%20Hospital&query_place_id=ChIJM-f6n4oLlR4RPcl4m8Lz1Lc",
+  "searchPageUrl": "https://www.google.com/maps/search/Donation%20Centers/@-26.19728750873482,28.02392406174862,16z?hl=en",
+  "searchString": "Donation Centers",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=06CYJJGNQw6Unnzh7XROAg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=30.760311&pitch=0&thumbfov=100",
+  "kgmid": "/g/11b5yv2v38"
+},
+{
+  "rank": 21,
+  "title": "Junes Haven Frail Care",
+  "price": null,
+  "categoryName": "Retirement home",
+  "address": "28 Seymour Avenue, Parktown, 2193, Johannesburg, 2937, South Africa",
+  "neighborhood": "Parktown",
+  "street": "28 Seymour Avenue, Parktown, 2193",
+  "city": "Johannesburg",
+  "postalCode": "2937",
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://www.juneshaven.co.za/",
+  "phone": "+27 82 626 0877",
+  "phoneUnformatted": "+27826260877",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -26.1830178,
+    "lng": 28.0306047
+  },
+  "totalScore": 4.9,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJY4YDeg0MlR4RzMBIp2FmXPc",
+  "categories": [
+    "Retirement home"
+  ],
+  "fid": "0x1e950c0d7a038663:0xf75c6661a748c0cc",
+  "cid": "17824233994830004428",
+  "reviewsCount": 24,
+  "reviewsDistribution": {
+    "oneStar": 0,
+    "twoStar": 0,
+    "threeStar": 0,
+    "fourStar": 3,
+    "fiveStar": 21
+  },
+  "imagesCount": 19,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:40:58.982Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "From the business": [
+      {
+        "Identifies as women-owned": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      },
+      {
+        "Wheelchair accessible restroom": true
+      },
+      {
+        "Wheelchair accessible seating": true
+      }
+    ],
+    "Amenities": [
+      {
+        "Gender-neutral restroom": true
+      }
+    ],
+    "Crowd": [
+      {
+        "Transgender safespace": true
+      }
+    ],
+    "Recycling": [
+      {
+        "Clothing": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Junes%20Haven%20Frail%20Care&query_place_id=ChIJY4YDeg0MlR4RzMBIp2FmXPc",
+  "searchPageUrl": "https://www.google.com/maps/search/Recycling%20Facilities/@-26.18186252620447,28.02392406174862,16z?hl=en",
+  "searchString": "Recycling Facilities",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipNgeJ1Z9XldvSpbT-Q6WLLPwfUp-Q9RpFUV7PhE=w408-h306-k-no",
+  "kgmid": "/g/11cmh7t8mb"
+},
+{
+  "rank": 1,
+  "title": "Southdale Shopping Centre",
+  "price": null,
+  "categoryName": "Shopping mall",
+  "address": "Cnr. Alamein Road &, Landsborough St, Southdale, Johannesburg South, South Africa",
+  "neighborhood": "Southdale",
+  "street": "Cnr. Alamein Road &, Landsborough St",
+  "city": "Johannesburg South",
+  "postalCode": null,
+  "state": null,
+  "countryCode": "ZA",
+  "website": "https://www.southdalesc.co.za/",
+  "phone": "+27 11 433 4393",
+  "phoneUnformatted": "+27114334393",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -26.2416266,
+    "lng": 28.0231952
+  },
+  "totalScore": 4.1,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJqRT2DdYOlR4RCtjDXikGAqU",
+  "categories": [
+    "Shopping mall"
+  ],
+  "fid": "0x1e950ed60df614a9:0xa50206295ec3d80a",
+  "cid": "11890072740964849674",
+  "reviewsCount": 4645,
+  "imagesCount": 534,
+  "imageCategories": [],
+  "scrapedAt": "2025-04-17T16:41:05.432Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "8 AM to 2 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "9 AM to 1 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Onsite services": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Payments": [
+      {
+        "Debit cards": true
+      },
+      {
+        "NFC mobile payments": true
+      },
+      {
+        "Credit cards": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Southdale%20Shopping%20Centre&query_place_id=ChIJqRT2DdYOlR4RCtjDXikGAqU",
+  "searchPageUrl": "https://www.google.com/maps/search/Donation%20Centers/@-26.228137473795524,28.041122687249544,16z?hl=en",
+  "searchString": "Donation Centers",
+  "language": "en",
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMMet5mk5Wii8h2WVmeN-f7qB-ndDybEM4_wbFC=w408-h306-k-no",
+  "kgmid": "/g/11c20svqs8"
+}]

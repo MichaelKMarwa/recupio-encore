@@ -1,8 +1,8 @@
 {
-  "name": "encore-ts-starter",
+  "name": "recupio",
   "private": true,
-  "version": "0.0.1",
-  "description": "Encore Typescript Starter",
+  "version": "1.0.0",
+  "description": "REcupio declutter solution",
   "license": "MPL-2.0",
   "type": "module",
   "devDependencies": {
@@ -15,5 +15,8 @@
     "encore.dev": "^1.46.17",
     "jsonwebtoken": "^9.0.2",
     "uuid": "^11.1.0"
+  },
+  "encore": {
+    "app_name": "recupio"
   }
 }

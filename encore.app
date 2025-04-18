@@ -1,11 +1,24 @@
 {
     "id": "corev2-g9p2",
     "lang": "typescript",
+    "name": "recupio",
+    "services": [
+        "admin",
+        "auth",
+        "drop-offs",
+        "facilities",
+        "guest",
+        "impact",
+        "items",
+        "payments",
+        "premium",
+        "shared"
+    ],
     "databases": {
         "main": {
             "migrations": "./shared/migrations",
             "provider": "postgresql",
-            "connection_string": "postgresql://core-db-v1_owner:npg_OxVW2DXKq9sg@ep-steep-brook-a2x256e7-pooler.eu-central-1.aws.neon.tech/core-db-v1?sslmode=require"
+            "connection_string": "${NEON_CONNECTION_STRING}"
         }
     },
     "external_connections": {
